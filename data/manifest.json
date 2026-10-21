@@ -1,0 +1,1308 @@
+{
+ "source": "Open Food Facts",
+ "fetched": "2026-10-22",
+ "image_license": "CC BY-SA (https://world.openfoodfacts.org/terms-of-use)",
+ "data_license": "ODbL + DbCL",
+ "count": 104,
+ "items": [
+  {
+   "barcode": "2000000021345",
+   "lang": "ko",
+   "product_name": "Shin Ramyun (신라면)",
+   "image_url": "https://images.openfoodfacts.org/images/products/200/000/002/1345/ingredients_ko.14.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/200/000/002/1345/ingredients_ko.14.400.jpg",
+   "truth_ingredients_text": "감자전분, 변성 면/소맥분(미국산, 호주산), 팜유(말레이시아산), •전분, 난각칼슘, 정제염, 야채조미추출물, 면류첨가알칼리제(산도조절제), 혼합제제(산도 조절제), 올리고녹차풍미액, 비타민B2. 스프류/정제염, 소고기맛베이스, 정백당, 육수맛 조미베이스, 볶음양념분, 조미소고기분말, 조미아미노산간장분말, 마늘발효조미분, 분말 된장, 마늘베이스, 간장분말, 조미양념분, 조미홍고추분말, 후추가루, 5'-리보뉴클레오 티드이나트륨, 복합양념분말, 칠리맛풍미분, 돈골조미분말, 매운맛조미분, 호박산이나트륨, 한소 후추풍미분말, 우골마늘조미분, 조미효모분말, 양파풍미분, 발효표고조미분, 분말카라멜 (카라멜색소, 물엿분말), 생강추출물분말, 표고버섯분말, 이스트조미분, 건파, 건청경채, 건표고버섯, 건당근, 건고추, {소맥분(밀), 탈지대두(대두), 돈골(돼지고기), 난각칼슘(계란)) ▲ 주의하세요 ㅏ여 기호 ㅣ시오. • 이 제품은 우유, 메밀, 땅콩, 고등어, 게, 토마토, 새우를 사용한 제품과",
+   "truth_allergens_tags": [
+    "en:crustaceans",
+    "en:gluten",
+    "en:peanuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/2000000021345",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801115381518",
+   "lang": "ko",
+   "product_name": "스타벅스 카페라때 편의점!",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/111/538/1518/ingredients_ko.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/111/538/1518/ingredients_ko.5.400.jpg",
+   "truth_ingredients_text": "체료형 원유(우유, 국내산) 40% 제주 스타벅스 커피추출액(고형분 5.0% 이상, 볶은 커피: 미국산) 11.97%, 유크림(국내산), 설탕, 탈지분유, 커피파우더 이탈리안식(고형분 95% 이상, 말레이시아산) 0.16%, 탄산칼륨, 유화제, 카제인나트륨 우유 함유 소비기한 용기 하단 표기일까지 보관기준 0~10℃ 냉장 보관 제ㅈ의 회전",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8801115381518",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801043060356",
+   "lang": "ko",
+   "product_name": "배홍동라면",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/104/306/0356/ingredients_ko.42.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/104/306/0356/ingredients_ko.42.400.jpg",
+   "truth_ingredients_text": "스프류 중 홍고추 8%, 배 1.8%",
+   "truth_allergens_tags": [
+    "en:crustaceans",
+    "en:fish",
+    "en:Well"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8801043060356",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801037065626",
+   "lang": "ko",
+   "product_name": "오레오 오즈",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/103/706/5626/ingredients_ko.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/103/706/5626/ingredients_ko.7.400.jpg",
+   "truth_ingredients_text": "옥수수가루(옥수수 : 호주산), 설탕, 쿠키분말 6.8% [{밀가루(밀 : 미국산, 호주산)}, 설탕, 식물성유지{팜유류(말레이시아산)}, 코코아분말, 물엿, 레시틴], 마시멜로 [설탕, 변성전분, 물엿, 포도당, 젤라틴], 코코아분말(싱가포르산), 바닐라향크런치, 식물성경화유지, 혼합삼곡(현미가루, 보리가루, 귀리가루), 물엿, 합성향료(바닐라크림향, 초콜릿향), 혼합제제(제삼인산칼슘, 탄산칼슘), 정제소금, 혼합제제(비타민C, dl-a-토코페릴아세테이트, 나이아신아미드, 분말비타민A, 비타민B6염산염, 비타민D3, 비타민B1염산염, 엽산, 말토덱스트린), 피로인산제이철, 산화아연, 비타민B2 인산에스테르나트륨",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8801037065626",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801056610012",
+   "lang": "ko",
+   "product_name": "펩시콜라250ml",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/105/661/0012/ingredients_ko.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/105/661/0012/ingredients_ko.7.400.jpg",
+   "truth_ingredients_text": "원재료/원산지 정제수, 액상과당, 백설탕, 이산화탄소, 혼합제제(카라멜색소, 정제수, 카페인(향미증진제), 합성착향료(콜라향), 프로필렌글리콜, 에탄올), 혼합제제(인산, 정제수, 카페인(향미증진제))",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8801056610012",
+   "group": "ko"
+  },
+  {
+   "barcode": "8809120440763",
+   "lang": "ko",
+   "product_name": "whole grain muesli",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/912/044/0763/ingredients_ko.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/912/044/0763/ingredients_ko.9.400.jpg",
+   "truth_ingredients_text": "볶음현미18,69%(국나산), 프락토올리고당, 뮤슬 리보리F9,79%(국내산), 퍼핑현미 8,9%(국내 산),설탕, 건조크랜베리바이츠 (크랜베리, 크랜 베리주스농축에, 설탕, 해비라기유),사탕이지즙액,쌀플레이크4,45%(국내산),볶음현미잡쌀 4,01% (국내산),통밀플레이크 4,01%(국내산),아몬드슬라이스,우리밀3,82%(국내산), 밀현미 3,29%(국내산),코코넛분말,식물성유지, 볶음현미분말 0,89%(국내산),정제소금,올레오레진로마리",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8809120440763",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801161502646",
+   "lang": "ko",
+   "product_name": "양념쌈장",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/116/150/2646/ingredients_ko.15.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/116/150/2646/ingredients_ko.15.400.jpg",
+   "truth_ingredients_text": "된장40%[대두,소맥분 ,정제소금,밀쌀,종국],고추장 22%[소맥분,고추양념,정제소금 종국] 물엿 소맥분,정제수,주정,정제소금,곡류가공품,장류베이스,조미마늘분,효소처리스테비아,종국 대두, 밀 함유",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8801161502646",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801155733810",
+   "lang": "ko",
+   "product_name": null,
+   "image_url": "https://images.openfoodfacts.org/images/products/880/115/573/3810/ingredients_ko.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/115/573/3810/ingredients_ko.7.400.jpg",
+   "truth_ingredients_text": "유통기한 Open SAMFTYCONG 유통기한 용기상단 포기일까지 품목보고번호| 19980476017172 포장재질| 플리에틸렌 영업소의 명칭 및 소재지(주)동원F8B 정읍공장전북 정읍시 정우면 정읍북로 763 원재료명 |원유(국산), 정제수, 파인애플시럽 12.5%(스위티스에프 에스600, 합성향로(파인애플향), 파인애플농축과즙 1% (필리핀 산, 배합함량 파인애플 100%), 구연산, 치자황색소 탈지 분유(국산), 유크림 (국산), 유산균주, 프로바이오티유산군 1역 이상/mL 우유함유 · 개봉 후 냉장보관 하시고 유통기한 이내에 드세요 . 이 제품은 소비자 분쟁 해결기준에 의거 고한또는 보상 받을 수 있습니다. . 빈 용기는 모아서 재활용합시다 이 계품은 알류, 메밀, 땅콩, 대두, 밀, 복숭이 토마트 돼기고기, 쇠고기를 사용한 제품과 같은 계조시설 하고 있습니다. 부정 불량 식품 신고는 국빈 · 0-100 냉강보관· 반품 및 교환장소 : 구입처 및 다 고객상담실 080-589-3223(4 7002 II TT BT DNT - DNT-- DNTE--P",
+   "truth_allergens_tags": [
+    "en:peanuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8801155733810",
+   "group": "ko"
+  },
+  {
+   "barcode": "4901033140175",
+   "lang": "ko",
+   "product_name": "",
+   "image_url": "https://images.openfoodfacts.org/images/products/490/103/314/0175/ingredients_ko.23.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/490/103/314/0175/ingredients_ko.23.400.jpg",
+   "truth_ingredients_text": "된장 (95.129%) (대두(52.354%), 쌀,식염),주정,가다랑어분말, 향미증진제 (L-글루탐산나트륨), 가다랑어포추출물 (가다랑어포,대두 단백가수분해물,설탕,정제수),5'- 이노신산이나트륨,다시마추출물, 원료명 가다랑어추출물,설탕,호박산이나트륨,5'-리보뉴클레오티드이 나트륨,다시마분말. [유전자 변형 대두 포함 가능성있음] 대두 함유",
+   "truth_allergens_tags": [
+    "en:fish",
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/4901033140175",
+   "group": "ko"
+  },
+  {
+   "barcode": "6950315700161",
+   "lang": "ko",
+   "product_name": "도라이버",
+   "image_url": "https://images.openfoodfacts.org/images/products/695/031/570/0161/ingredients_ko.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/695/031/570/0161/ingredients_ko.13.400.jpg",
+   "truth_ingredients_text": "Tus SlUSTECH JST-6 098A 2011 NEW STYLE HIGHQUALITY FOR YOUR LIFE LE LIFE's ELEMENT 生活元素 Interchangerable precise manual tool set PROFESSIONAL HARDWARE TOOLS",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/6950315700161",
+   "group": "ko"
+  },
+  {
+   "barcode": "6253490211058",
+   "lang": "ko",
+   "product_name": "r-TG Omega-3 Max 1400",
+   "image_url": "https://images.openfoodfacts.org/images/products/625/349/021/1058/ingredients_ko.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/625/349/021/1058/ingredients_ko.13.400.jpg",
+   "truth_ingredients_text": "Verfeinertes Fischöl (Sardellen), D-α-Tocopherol, Gelatin, Glycerin, Wasser",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/6253490211058",
+   "group": "ko"
+  },
+  {
+   "barcode": "8801725000809",
+   "lang": "ko",
+   "product_name": "",
+   "image_url": "https://images.openfoodfacts.org/images/products/880/172/500/0809/ingredients_ko.3.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/880/172/500/0809/ingredients_ko.3.400.jpg",
+   "truth_ingredients_text": "sugar, starch syrup, peach concentrate, gelatin, fructose, oligosaccharide, humectant E420, acidity regulator, artificial peach flavor, pectin, oils and fats, emulsifier, berry juice",
+   "truth_allergens_tags": [
+    "en:gelatin"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8801725000809",
+   "group": "ko"
+  },
+  {
+   "barcode": "0854226008063",
+   "lang": "en",
+   "product_name": "Collagen Peptides",
+   "image_url": "https://images.openfoodfacts.org/images/products/085/422/600/8063/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/085/422/600/8063/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "MFD IN THE USA GOOD URING CGMP PRACTICE NOW 60 DAYS 100% SA ANTEE LAB Supplement Facts Serving Size 1 Scoop (7g) Servings Per Container About 35 Calories Protein Hydrolyzed Bovine Collagen Amount Per Serving %DV 25 6g 7g t 50 mg t DigeSEB PB Digestive Enzyme and Probiotic Blend Protease Amylase Cellulase Lactase Lipase Lactobacillus acidophilus † Daily Value (DV) not established MANUFACTURED FOR PHYSICIAN'S CHOICE 0990 WEST 38TH AVENUE #304 WHEAT RIDGE, CO 80033 1-877 395-2707/PHYSICIANSCHOICE.COM \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nPB IS A TRADEMARK OF SPECIALTY ENZYMES, CHINO, CA FIED PURITY",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0854226008063",
+   "group": "en"
+  },
+  {
+   "barcode": "0012000191466",
+   "lang": "en",
+   "product_name": "Mtn drew zero sugar",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/200/019/1466/ingredients_en.4.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/200/019/1466/ingredients_en.4.400.jpg",
+   "truth_ingredients_text": "nutron facts serving size 1 can amount per serving calories 0 % dv total fat 0g sodium 40mg total carbohydrate 0g total sugars og includes og added sugars 0% protein og 0% 2% 0% not a significant source of other nutrients, % dv , % daily value carbonated water, citric acid, natural flavor, potassium benzoate (preserves freshness), citrus pectin, aspartame, potassium citrate, caffeine, gum arabic, acesulfame potassium, sucralose, sodium citrate, calcium disodium edta (10 protect flavor), yellow 5, phenylketonurics: contains phenylalanine b18770 6450-101-0000 bottled under the authority of pepsico, inc,, purchase, ny 10577, caffeine content: g8mg/12 fl oz, we're hers to bolp,",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0012000191466",
+   "group": "en"
+  },
+  {
+   "barcode": "4002391044904",
+   "lang": "en",
+   "product_name": "Secco Peach",
+   "image_url": "https://images.openfoodfacts.org/images/products/400/239/104/4904/ingredients_en.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/400/239/104/4904/ingredients_en.5.400.jpg",
+   "truth_ingredients_text": "White grape wine (contains sulfites), water suar, peah n concentrate, peach juice from concentrate, carbon dioxide, red grape wi Is sulftes), acidfer citric acid. flavor Bottled by Sektkellerei Peter emes PAOL Ther, Germany - Imported by Latitude Wines, Inc. Danvle CA S Gemany ERNMENT WARNING: (1) ACCORDING TO 12 CONSUMPTION OF ALCOHOLIC HEALTH PROBLEMS. ALC.5.5% BY VOL, 750 ML \\2118-2 16:40",
+   "truth_allergens_tags": [
+    "en:sulphur-dioxide-and-sulphites"
+   ],
+   "page": "https://world.openfoodfacts.org/product/4002391044904",
+   "group": "en"
+  },
+  {
+   "barcode": "0817909012368",
+   "lang": "en",
+   "product_name": "berry white tea cookies",
+   "image_url": "https://images.openfoodfacts.org/images/products/081/790/901/2368/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/081/790/901/2368/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Wheat flour, butter (milk), sugar, dried cherries, eggs, white tea, raspberry flavor, pure vanilla extract, baking soda",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0817909012368",
+   "group": "en"
+  },
+  {
+   "barcode": "17087681",
+   "lang": "en",
+   "product_name": "Ensure Original nutrition shake (Milk Chocolate)",
+   "image_url": "https://images.openfoodfacts.org/images/products/17087681/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/17087681/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Folate (60mcg Folic Acid) AND MINERALS: POTASSIUM CITRATE, MAGNESIUM PHOSPHATE Nutrition Fac Doctor MCOMMENDED Serving size Amount per serving Calories BRAND 1 botte Total Fat 6g S DV' Saturated Fat 1g Trans Fat 0g 8% Sodium 210r Polyunsaturated Fat 29 Monounsaturated Fat 39 Cholesterol &lt;5mg Dletary Fider Total Sugas 1 Vitamin D Dmeg Iron 4.5mg &lt;2% Protein 9 25% Potassium 470my 35% Vitamin A 25%-Catimcoty Thiamin 25% Vilamin Be 25% 25% 25% 25% Riboflavin 25% Niacin Zinc 25% Copper •Chloride 10% Chromium 30% • Selenium t in a serving of l advice PHATE CITRATE, CALCIUM PHOSPHATE MANGANESE SULFATE, AMINE HYDRO al",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/17087681",
+   "group": "en"
+  },
+  {
+   "barcode": "0329219610009",
+   "lang": "en",
+   "product_name": "Family Rotisserie chicken",
+   "image_url": "https://images.openfoodfacts.org/images/products/032/921/961/0009/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/032/921/961/0009/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "CHICKEN, WATER, SEASONING[HONEY POWDER] [HONEY, MALTODEXTRIN], SALT, BROWNSUGAR, NATURAL GRILL FLAVOR, AND SODIUM PHOSPHATES.",
+   "truth_allergens_tags": [
+    "en:chicken"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0329219610009",
+   "group": "en"
+  },
+  {
+   "barcode": "0810028540552",
+   "lang": "en",
+   "product_name": "Penne Rigate",
+   "image_url": "https://images.openfoodfacts.org/images/products/081/002/854/0552/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/081/002/854/0552/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "Farina and Semolina wheat, Mountain Spring water.",
+   "truth_allergens_tags": [
+    "en:gluten"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0810028540552",
+   "group": "en"
+  },
+  {
+   "barcode": "0715001001177",
+   "lang": "en",
+   "product_name": "Fully Cooked Dark Meat Chicken Fajitas Strips",
+   "image_url": "https://images.openfoodfacts.org/images/products/071/500/100/1177/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/071/500/100/1177/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "DARK MEAT CHICKEN, WATER, cONTAINES 2% OR LESS OF SLAT, SPICES, POTASSIUM PHOSPHATES, ONION POWDER, GARLIC POWDER, DEXTROSE, CHILI POWDER (SPICES, SALT, GARLIC), MODIFIED FOOD STARCH, GRILL FLAVOR (MALTODEXTRIN, FLAVOR [FROM SUNFLOWER OIL], MODIFIED FOOD STARCH, CORN SYRUP SOLIDS, tRICALCIUM PHOSPHATE), LEMON POWDER (CORN SYRUP SOLIDS, LEMON JUICE SOLIDS, NATURAL FLAVORS), LEMON JUICE SOLIDS, NATURAL FLAVORS), LIME JUICE POWDER (CORN SYRUP SOLIDS, LIME JUICE SOLIDS, NATURAL FLAVORS), VINEGAR POWDER (MALTODEXTRIN, WHITE DISTILLED VINEGAR, MODIFIED FOOD STARCH), SUGAR, BROWN SUGAR, SPICE EXTRACTIVES, NATURAL SMOKE FLAVORS",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0715001001177",
+   "group": "en"
+  },
+  {
+   "barcode": "10042222209981",
+   "lang": "en",
+   "product_name": "Oven Roasted Sliced Turkey Breast",
+   "image_url": "https://images.openfoodfacts.org/images/products/100/422/222/09981/ingredients_en.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/100/422/222/09981/ingredients_en.6.400.jpg",
+   "truth_ingredients_text": "TURKEY BREAST.WHITE TURKEY, TURKEY BROTH, CONTAINS 2% OR LESS MODIFIED FOOD STARCH, POTASS CHLORIDE, SODIUM PHOSPHATE SALT.ROSEKARY EXTRACT.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/10042222209981",
+   "group": "en"
+  },
+  {
+   "barcode": "0850002532005",
+   "lang": "en",
+   "product_name": "Instant Coffee",
+   "image_url": "https://images.openfoodfacts.org/images/products/085/000/253/2005/ingredients_en.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/085/000/253/2005/ingredients_en.5.400.jpg",
+   "truth_ingredients_text": "Dehydrated Coffee",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0850002532005",
+   "group": "en"
+  },
+  {
+   "barcode": "0021000039821",
+   "lang": "en",
+   "product_name": "Classic Lasagna Dinner Kit",
+   "image_url": "https://images.openfoodfacts.org/images/products/002/100/003/9821/ingredients_en.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/002/100/003/9821/ingredients_en.8.400.jpg",
+   "truth_ingredients_text": "ENRICHED MACARONI PRODUCT (WHEAT FLOUR, NTACIN, FERROUS SULFATE [IRON], THIAMIN MONONITRATE MITAMIN B1], RIBOFLAVIN [VITAMIN B2], FOLIC ACID), CHEESE SAUCE (WHEY, CHEDDAR CHEESE [MILK, CHEESE CULTURE, SALT, ENZYMES], CANOLA OIL. WHEY PROTEIN CONCENTRATE, MILK PROTEIN CONCENTRATE, MILK, SODIUM PHOSPHATE, CONTAINS LESS THAN 2% OF SALI LACTIC ACID, SODIÚM ALGINATE, SORBIC ACID AS A PRESERVATIVE, MILKFAT, NATURAL FLAVOR, ENZYMES, CHEESE CULTURE, OLEORESIN PAPRIKA [COLOR], ANNATTO EXTRACT [COLOR]), SEASONING BLEND (TOMATOES*, ONIONS , GARLIC SPICE. SALT. SUGAR, YELLOW , YELLOW 6). *DRIED CONTAINS: WHEAT, MILK.",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0021000039821",
+   "group": "en"
+  },
+  {
+   "barcode": "0832460117277",
+   "lang": "en",
+   "product_name": "Green Peas",
+   "image_url": "https://images.openfoodfacts.org/images/products/083/246/011/7277/ingredients_en.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/083/246/011/7277/ingredients_en.6.400.jpg",
+   "truth_ingredients_text": "GREEN PEAS, WATER.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0832460117277",
+   "group": "en"
+  },
+  {
+   "barcode": "0888989930170",
+   "lang": "en",
+   "product_name": "dried fruit candy",
+   "image_url": "https://images.openfoodfacts.org/images/products/088/898/993/0170/ingredients_en.3.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/088/898/993/0170/ingredients_en.3.400.jpg",
+   "truth_ingredients_text": "prune, sugar, malt, brown sugar, salt, fd&c yellow#5, fd&c  yellow #6, food grade flavor, licorice.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0888989930170",
+   "group": "en"
+  },
+  {
+   "barcode": "57679464",
+   "lang": "en",
+   "product_name": "Black bean and Monterey Jack cheese burrito",
+   "image_url": "https://images.openfoodfacts.org/images/products/57679464/ingredients_en.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/57679464/ingredients_en.5.400.jpg",
+   "truth_ingredients_text": "BLACK BEANS (WATER, BLACK BEANS, ONIONS, TOMATO PUREE ITOMATOES, SALT, CALCIUM way through heating. CHLORIDE, CITRIC ACID {ACIDIFIER}], APPLE CIDER VINEGAR, CUMIN, SEA SALT, GARLIC, GUAJILLÓ CHILE POWDER, DRIED OREGANO, JALAPENO POWDER, BAY LEAVES), FLOURTORTILLA (WHEAT FLOUR, WATER, CANOLA OIL, CONTAINS 2% OR LESS OF OAT FIBER, WHEAT GLUTEN, SUGAR, CULTURED WHEAT FLOUR (TO PRESERVEJ, ŠALT, MONOGLYCERIDES, MALIC ACID, BAKING SODA, CELLULOSE GUM, GUAR GUM, SODIUM ACID PYROPHOSPHATE, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RÍBOFLAVIN, FOLIC ACID), SHREDDED CHEESE (MONTEREY JACK CHEESE [PASTEIURIZED MILK, CHEESE CULTURES, SALT, MICROBIAL ENZYMEJ, POWDERED CELLULOSE). CONTAINS MILK, WHEAT. SKU# 3876 USE BY 020921",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/57679464",
+   "group": "en"
+  },
+  {
+   "barcode": "0721557330050",
+   "lang": "en",
+   "product_name": "coconut milk",
+   "image_url": "https://images.openfoodfacts.org/images/products/072/155/733/0050/ingredients_en.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/072/155/733/0050/ingredients_en.5.400.jpg",
+   "truth_ingredients_text": "coconut milk, polysorbate 60,guar gum,potassium, metabisulfite",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0721557330050",
+   "group": "en"
+  },
+  {
+   "barcode": "0036632018649",
+   "lang": "en",
+   "product_name": "Oikos Greek Yogurt Blended - Lemon Meringue Flavor - Made with Whole Milk, Cane Sweetened",
+   "image_url": "https://images.openfoodfacts.org/images/products/003/663/201/8649/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/003/663/201/8649/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "Yogurt (cultuered grade A non fat milk, cream, active yogurt culteres) cane sugar, water, contains less than 1% of modified food starch, lemon juice concentrate, natural flavors, beta carotene and turmeric (for color), potassium sorbate (to maintain freshness), sodium citrate, malic acid, vitamin D3.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0036632018649",
+   "group": "en"
+  },
+  {
+   "barcode": "0031506948169",
+   "lang": "en",
+   "product_name": "Dietz & watson, horseradish cheddar cheese",
+   "image_url": "https://images.openfoodfacts.org/images/products/003/150/694/8169/ingredients_en.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/003/150/694/8169/ingredients_en.6.400.jpg",
+   "truth_ingredients_text": "Aged cheddar cheese(milk, cultures, salt, enzymes), ground horseradish, trisodium citrate, horseradish flavor.",
+   "truth_allergens_tags": [
+    "en:milk",
+    "en:mustard"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0031506948169",
+   "group": "en"
+  },
+  {
+   "barcode": "0031200230270",
+   "lang": "en",
+   "product_name": "Cranberry Juice Cocktail",
+   "image_url": "https://images.openfoodfacts.org/images/products/003/120/023/0270/ingredients_en.12.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/003/120/023/0270/ingredients_en.12.400.jpg",
+   "truth_ingredients_text": "FILTERED WATER, CRANBERRY JUICE (WATER, CRANBERRY JUICE CONCENTRATE), CANE OR BEET SUGAR, CALCIUM FUMARATE, ASCORBIC ACID (VITAMIN C), CALCIUM CHLORIDE, VEGETABLE CONCENTRATE FOR COLOR.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0031200230270",
+   "group": "en"
+  },
+  {
+   "barcode": "00214036",
+   "lang": "en",
+   "product_name": "Cinnamon Schoolbook Cookies",
+   "image_url": "https://images.openfoodfacts.org/images/products/00214036/ingredients_en.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/00214036/ingredients_en.8.400.jpg",
+   "truth_ingredients_text": "UNBLEACHED ENRICHED FLOUR (_WHEAT_ FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, PALM OIL, CINNAMON, NATURAL FLAVOR, SODIUM BICARBONATE, SALT.",
+   "truth_allergens_tags": [
+    "en:gluten"
+   ],
+   "page": "https://world.openfoodfacts.org/product/00214036",
+   "group": "en"
+  },
+  {
+   "barcode": "0028190007876",
+   "lang": "en",
+   "product_name": "Microwave PopCorn - Butter Flavour",
+   "image_url": "https://images.openfoodfacts.org/images/products/002/819/000/7876/ingredients_en.21.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/002/819/000/7876/ingredients_en.21.400.jpg",
+   "truth_ingredients_text": "100% whole grain non-gmo pop corn, corn oil, palm oil, salt, natural flavor, butter (cream, salt), dry buttermilk, tbhq and ascorbic acid to preserve freshness, annatto for color,",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0028190007876",
+   "group": "en"
+  },
+  {
+   "barcode": "0021130325245",
+   "lang": "en",
+   "product_name": "Yellow Cling Sliced Peaches In Heavy Syrup",
+   "image_url": "https://images.openfoodfacts.org/images/products/002/113/032/5245/ingredients_en.10.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/002/113/032/5245/ingredients_en.10.400.jpg",
+   "truth_ingredients_text": "PEACHES, WATER, CORN SYRUP, SUGAR.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0021130325245",
+   "group": "en"
+  },
+  {
+   "barcode": "0021000643462",
+   "lang": "en",
+   "product_name": "Buttermilk ranch dressing bottles",
+   "image_url": "https://images.openfoodfacts.org/images/products/002/100/064/3462/ingredients_en.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/002/100/064/3462/ingredients_en.6.400.jpg",
+   "truth_ingredients_text": "soybean oil, water, buttermilk, vinegar, sugar, egg yolks, salt, contains less than 2% of whey (from milk), dried onions, modified food starch, phosphoric acid, monosodium glutamate, xanthan gum, dried garlic, spice, polysorbate 60, natural flavor, sorbic acid and calcium disodium edta (to protect flavor) contains: milk, egg.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:milk",
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0021000643462",
+   "group": "en"
+  },
+  {
+   "barcode": "0016000483668",
+   "lang": "en",
+   "product_name": "Honey nut sweetened whole grain oat cereal with",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/600/048/3668/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/600/048/3668/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Whole grain oats, sugar, oat bran, corn starch, honey, brown sugar syrup, salt, tripotassium phosphate, canola oil, natural almond flavor. vitamin e (mixed tocopherols) added to preserve freshness.vitamins and minerals: calcium carbonate, zinc and iron (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b6 (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b1 (thiamin mononitrate), vitamin a (palmitate), a b vitamin (folic acid), vitamin b12, vitamin d3.",
+   "truth_allergens_tags": [
+    "en:nuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0016000483668",
+   "group": "en"
+  },
+  {
+   "barcode": "0014100098423",
+   "lang": "en",
+   "product_name": "Maui Milk Chocolate Coconut Almond",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/410/009/8423/ingredients_en.18.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/410/009/8423/ingredients_en.18.400.jpg",
+   "truth_ingredients_text": "Made from: enriched wheat flour (flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), milk chocolate (sugar, cocoa butter, nonfat milk, chocolate, milkfat, soy lecithin, vanilla extract), sugar, palm and/or soybean and hydrogenated soybean oil, coconut (sulfites), almonds, butter, brown sugar (sugar, invert sugar, molasses), contains 2% or less of: eggs, salt, baking soda, cream of tartar, natural flavor, vanilla extract, tree nut meal (cashews, macadamia nuts, pecans, walnuts). contains: wheat, milk, soy, coconut, almonds, eggs, cashews, macadamia nuts, pecans, walnuts.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk",
+    "en:nuts",
+    "en:soybeans",
+    "en:sulphur-dioxide-and-sulphites"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0014100098423",
+   "group": "en"
+  },
+  {
+   "barcode": "0012000024535",
+   "lang": "en",
+   "product_name": "Citrus Green Tea",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/200/002/4535/ingredients_en.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/200/002/4535/ingredients_en.8.400.jpg",
+   "truth_ingredients_text": "Water, High Fructose Corn Syrup, Citric Acid, Natural Flavor, Sodium Hexametaphosphate (to protect flavor), Green Tea, Ascorbic Acid (Vitamin C), Potassium Sorbate (preserves freshness), Phosphoric Acid, Acesulfame Potassium, Calcium Disodium Edta (to protect flavor), Honey",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0012000024535",
+   "group": "en"
+  },
+  {
+   "barcode": "0011110733498",
+   "lang": "en",
+   "product_name": "Porks & Beans",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/111/073/3498/ingredients_en.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/111/073/3498/ingredients_en.5.400.jpg",
+   "truth_ingredients_text": "PREPARED WHITE BEANS, WATER, SUGAR, CONTAINS LESS THAN 2% OF: TOMATO PASTE, HIGH FRUCTOSE CORN SYRUP, SALT, VINEGAR, PORK, BICARBONATE OF SODA, ONION POWDER, PAPRIKA COLORING, SPICE, NATURAL FLAVORINGS.",
+   "truth_allergens_tags": [
+    "en:pork"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0011110733498",
+   "group": "en"
+  },
+  {
+   "barcode": "0010852997489",
+   "lang": "en",
+   "product_name": "Cream on Top strawberry Organic Yogurt",
+   "image_url": "https://images.openfoodfacts.org/images/products/001/085/299/7489/ingredients_en.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/001/085/299/7489/ingredients_en.8.400.jpg",
+   "truth_ingredients_text": "Organic Grade A Pasteurized _Milk_, Organic Pasteurized _Cream_, Organic Nonfat Pasteurized _Milk_, Organic Strawberries (Organic Cane Sugar, Organic Strawberries, Pectin, Organic Locust Bean Gum, Natural Flavor, Organic Fruit & Vegetable Juice (color), Citric Acid), Organic Cane Sugar, Pectin, Organic Corn Starch, Live Active Cultures.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0010852997489",
+   "group": "en"
+  },
+  {
+   "barcode": "0639277135322",
+   "lang": "en",
+   "product_name": "Lite pancake syrup",
+   "image_url": "https://images.openfoodfacts.org/images/products/063/927/713/5322/ingredients_en.12.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/063/927/713/5322/ingredients_en.12.400.jpg",
+   "truth_ingredients_text": "WATER, HIGH FRUCTOSE CORN SYRUP, CONTAINS LESS THAN 2% OF CELLULOSE GUM, CARMEL COLOR, SALT, NATURAL AND ARTIFICIAL FLAVORS, PHOSPHORIC ACID, POTASSIUM SORBATE, SODIUM HEXAMETAPHOSPHATE, SODIUM BENZOATE (PRESERVATIVES)",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0639277135322",
+   "group": "en"
+  },
+  {
+   "barcode": "0054152201136",
+   "lang": "en",
+   "product_name": "Whole Unpeeled Straw Mushrooms",
+   "image_url": "https://images.openfoodfacts.org/images/products/005/415/220/1136/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/005/415/220/1136/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Straw mushrooms, water, salt",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0054152201136",
+   "group": "en"
+  },
+  {
+   "barcode": "0853508101003",
+   "lang": "en",
+   "product_name": "Avocado Honey",
+   "image_url": "https://images.openfoodfacts.org/images/products/085/350/810/1003/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/085/350/810/1003/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "100% Pure Avocado Honey",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0853508101003",
+   "group": "en"
+  },
+  {
+   "barcode": "2935306002206",
+   "lang": "fr",
+   "product_name": "Parmigiano reggiano",
+   "image_url": "https://images.openfoodfacts.org/images/products/293/530/600/2206/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/293/530/600/2206/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "_lait_ bio de vache, sel, presure - matière grasse min 32%",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/2935306002206",
+   "group": "fr"
+  },
+  {
+   "barcode": "3181580268602",
+   "lang": "fr",
+   "product_name": "Tarte fine aux légumes du soleil et Mozzarella",
+   "image_url": "https://images.openfoodfacts.org/images/products/318/158/026/8602/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/318/158/026/8602/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "Tomate 36,8 %, pâte feuilletée 27,7 % (farine de _blé_, eau, _beurre_ concentré 5 % (_beurre_, colorant : E160a), sel, _oeuf_), courgette 14,6 %, _mozzarella_ 8,4 % (dont acidifiant : E330), _oeuf_, eau, _crème_ fraîche, _fromage_ blanc, oignon préfrit 1 % (dont huile de tournesol), poivron vert 0,8 %, poivron rouge 0,8 %, amidon modifié de maïs, tomate mi-séchée 0,6 %, huile d'olive vierge extra, basilic, sel, poivre, romarin.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3181580268602",
+   "group": "fr"
+  },
+  {
+   "barcode": "3760011178040",
+   "lang": "fr",
+   "product_name": "6 crêpes roulées jambon emmental",
+   "image_url": "https://images.openfoodfacts.org/images/products/376/001/117/8040/ingredients_fr.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/376/001/117/8040/ingredients_fr.8.400.jpg",
+   "truth_ingredients_text": "Garniture (52,4 %) : eau, jambon cuit supérieur en morceaux (15,2 %) (jambon de porc (92 %), sel, sirop de glucose de pomme de terre et/ou de blé et/ou de maïs, dextrose de pomme de terre et/ou de blé et/ou de maïs, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium), farine de _blé_, huile végétale de tournesol non hydrogénée, _emmental_ (5,1 %), préparation laitière en poudre (_lactose_ et protéines de _lait_ (contient _oeufs_), _crème_), sel, arômes naturels de poivre et de muscade.\r\n\r\nPâte (47,6 %) : eau, farine de _blé_, _oeufs_ frais entiers pasteurisés, _lait_ écrémé en poudre, dextrose de _blé_, huile végétale de tournesol non hydrogénée, sel.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3760011178040",
+   "group": "fr"
+  },
+  {
+   "barcode": "3324498002542",
+   "lang": "fr",
+   "product_name": "Confiture pomme au calvados",
+   "image_url": "https://images.openfoodfacts.org/images/products/332/449/800/2542/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/332/449/800/2542/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "Pomme, sucre de canne, calvados Busnel, jus concentré de citron, gélifiant : pectine de fruits",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3324498002542",
+   "group": "fr"
+  },
+  {
+   "barcode": "3111900308305",
+   "lang": "fr",
+   "product_name": "Muesli Croustillant Grenade Cerise",
+   "image_url": "https://images.openfoodfacts.org/images/products/311/190/030/8305/ingredients_fr.10.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/311/190/030/8305/ingredients_fr.10.400.jpg",
+   "truth_ingredients_text": "Céréales 65,7% (flocons d'avoine* complets, riz*, farine d'épeautre*, avoine), sucre de canne* complet, huile de tournesol* (tournesol,* antioxydant : extrait de romarin*), fruits* 7% (jus concentré de grenade* 4%, cerise* lyophilisée 3%), sucre de canne*, sirop de malt d'orge*, sel de mer.",
+   "truth_allergens_tags": [
+    "en:gluten"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3111900308305",
+   "group": "fr"
+  },
+  {
+   "barcode": "3760122962200",
+   "lang": "fr",
+   "product_name": "Oranges pressées à froid",
+   "image_url": "https://images.openfoodfacts.org/images/products/376/012/296/2200/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/376/012/296/2200/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "Jus d'oranges pressées (100 %).",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3760122962200",
+   "group": "fr"
+  },
+  {
+   "barcode": "3256224765370",
+   "lang": "fr",
+   "product_name": "Pur jus de pomme, orange sanguine, cassis pasteurisé réfrigéré",
+   "image_url": "https://images.openfoodfacts.org/images/products/325/622/476/5370/ingredients_fr.17.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/325/622/476/5370/ingredients_fr.17.400.jpg",
+   "truth_ingredients_text": "Jus de pomme 35%, jus de raisin 35%, jus d'orange sanguine 25%, jus de cassis 5%.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3256224765370",
+   "group": "fr"
+  },
+  {
+   "barcode": "20534585",
+   "lang": "fr",
+   "product_name": "Parmentier de Poisson",
+   "image_url": "https://images.openfoodfacts.org/images/products/20534585/ingredients_fr.17.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/20534585/ingredients_fr.17.400.jpg",
+   "truth_ingredients_text": "Eau, 27,2 % poissons (Colin d'Alaska, Julienne), 15% crème (crème de lait), stabilisant : carraghénanes), 7,9% flocons de pomme de terre (7,8% flocons de pomme de terre déshydratés, émulsifiant : mono - et diglècérides d'acides gras), poudre de lait écrémé, beurre (lait), 1% huile d'olive vierge extra, ail, sel, 0,3% ciboulette, fumet de poissons (poissons en poudre, sel, arômes naturels, oignon), poivre, muscade.",
+   "truth_allergens_tags": [
+    "en:fish",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/20534585",
+   "group": "fr"
+  },
+  {
+   "barcode": "3183811010646",
+   "lang": "fr",
+   "product_name": "Soupe de poissons",
+   "image_url": "https://images.openfoodfacts.org/images/products/318/381/101/0646/ingredients_fr.22.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/318/381/101/0646/ingredients_fr.22.400.jpg",
+   "truth_ingredients_text": "Eau, plusieurs variétés de poissons Pavillon France: 35%, oignons, tomates (tomates, jus de tomates), concentré de tomates, carottes, huile de tournesol, poireaux, sel, ail, plantes aromatiques (Écorces d'orange, fenouil, poivre, laurier, piment doux).",
+   "truth_allergens_tags": [
+    "en:fish"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3183811010646",
+   "group": "fr"
+  },
+  {
+   "barcode": "5400247030320",
+   "lang": "fr",
+   "product_name": "Jus de raisin à base de concentré",
+   "image_url": "https://images.openfoodfacts.org/images/products/540/024/703/0320/ingredients_fr.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/540/024/703/0320/ingredients_fr.9.400.jpg",
+   "truth_ingredients_text": "Jus de raisin à base de concentré.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/5400247030320",
+   "group": "fr"
+  },
+  {
+   "barcode": "3123340008004",
+   "lang": "fr",
+   "product_name": "Le pur jus 100% fruits pressés, Jus multi fruits",
+   "image_url": "https://images.openfoodfacts.org/images/products/312/334/000/8004/ingredients_fr.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/312/334/000/8004/ingredients_fr.13.400.jpg",
+   "truth_ingredients_text": "Jus de pomme, pêche, orange, ananas, banane, passion, mangue, abricot, vitamine C.",
+   "truth_allergens_tags": [
+    "en:orange"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3123340008004",
+   "group": "fr"
+  },
+  {
+   "barcode": "5410188008227",
+   "lang": "fr",
+   "product_name": "Pure Premium Ruby Breakfast (maxi format)",
+   "image_url": "https://images.openfoodfacts.org/images/products/541/018/800/8227/ingredients_fr.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/541/018/800/8227/ingredients_fr.6.400.jpg",
+   "truth_ingredients_text": "Jus d'orange, d'orange sanguine et de pamplemousse rose.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/5410188008227",
+   "group": "fr"
+  },
+  {
+   "barcode": "3263855093147",
+   "lang": "fr",
+   "product_name": "Pur jus d'orange et de clémentine",
+   "image_url": "https://images.openfoodfacts.org/images/products/326/385/509/3147/ingredients_fr.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/326/385/509/3147/ingredients_fr.6.400.jpg",
+   "truth_ingredients_text": "Jus d'orange 50% - Jus de clémentine 50%",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3263855093147",
+   "group": "fr"
+  },
+  {
+   "barcode": "04497851",
+   "lang": "fr",
+   "product_name": "100% pur jus multifruits",
+   "image_url": "https://images.openfoodfacts.org/images/products/04497851/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/04497851/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "Jus d'orange, jus de pomme, jus d'anana, purée de banane, jus de raisin blanc, jus de pamplemousse,  purée d'abricot, purée de pêche",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/04497851",
+   "group": "fr"
+  },
+  {
+   "barcode": "3760165986560",
+   "lang": "fr",
+   "product_name": "Tarte Mendiant",
+   "image_url": "https://images.openfoodfacts.org/images/products/376/016/598/6560/ingredients_fr.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/376/016/598/6560/ingredients_fr.8.400.jpg",
+   "truth_ingredients_text": "Farine de _blé_, _beurre_ de Savoie, sucre, _amandes_ effilées 20 %, _œufs_, _crème_ entière, _noisettes_ 6 %, _pistaches_ 4 %, miel 4 %, blancs d'_œufs_, poudre à lever.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk",
+    "en:nuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3760165986560",
+   "group": "fr"
+  },
+  {
+   "barcode": "3770012213084",
+   "lang": "fr",
+   "product_name": "Cancoillotte",
+   "image_url": "https://images.openfoodfacts.org/images/products/377/001/221/3084/ingredients_fr.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/377/001/221/3084/ingredients_fr.8.400.jpg",
+   "truth_ingredients_text": "Eau, Metton de Franche—Comté (_lait_ écrémé caillé), beurre Poitou-Charente AOP, Bière de Sochaux, houbions, sels de fonte : diphosphate, triphosphate de sodium, sel de Guérande AOP, poivre Penja IGP.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3770012213084",
+   "group": "fr"
+  },
+  {
+   "barcode": "3263859710712",
+   "lang": "fr",
+   "product_name": "Fromage blanc nature",
+   "image_url": "https://images.openfoodfacts.org/images/products/326/385/971/0712/ingredients_fr.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/326/385/971/0712/ingredients_fr.13.400.jpg",
+   "truth_ingredients_text": "Lait écremé pasteurisé (origine: France) - crème pasteurisée (origine: France) - ferments lactiques. Contient plus de 82% d'humidité. Produit à 3% de matières grasses sur poids total.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3263859710712",
+   "group": "fr"
+  },
+  {
+   "barcode": "3265776634157",
+   "lang": "fr",
+   "product_name": "Fromage frais au lait de Normandie",
+   "image_url": "https://images.openfoodfacts.org/images/products/326/577/663/4157/ingredients_fr.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/326/577/663/4157/ingredients_fr.5.400.jpg",
+   "truth_ingredients_text": "_Lait_ demi-écrémé pasteurisé, ferments lactiques.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3265776634157",
+   "group": "fr"
+  },
+  {
+   "barcode": "3566490040027",
+   "lang": "fr",
+   "product_name": "Tarte au Maroilles",
+   "image_url": "https://images.openfoodfacts.org/images/products/356/649/004/0027/ingredients_fr.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/356/649/004/0027/ingredients_fr.9.400.jpg",
+   "truth_ingredients_text": "Farine de blé, Gluten, Enzymes, Antioxygène : Acide ascorbique, Eau, œufs entier, beurre concentré, levure boulangère, matière grasse végétale, Emulsifiant E322 - E471 - E330 - Colorant E160a, Arôme, Sel, Épices, Maroilles, Fromage râpé français au lait de vache, coagulant, ferment lactique, Anti mottant, Amidon, Crème UHT 35%, Carraghénanes E407, Emulsifiant E472b E472e",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/3566490040027",
+   "group": "fr"
+  },
+  {
+   "barcode": "3700152400075",
+   "lang": "fr",
+   "product_name": "Puerto Cabello Chocolat noir",
+   "image_url": "https://images.openfoodfacts.org/images/products/370/015/240/0075/ingredients_fr.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/370/015/240/0075/ingredients_fr.6.400.jpg",
+   "truth_ingredients_text": "Cacao, beurre de cacao, sucre.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3700152400075",
+   "group": "fr"
+  },
+  {
+   "barcode": "3560070348374",
+   "lang": "fr",
+   "product_name": "Steak hachés pur boeuf 15% MG",
+   "image_url": "https://images.openfoodfacts.org/images/products/356/007/034/8374/ingredients_fr.12.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/356/007/034/8374/ingredients_fr.12.400.jpg",
+   "truth_ingredients_text": "Viande bovine 100%",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3560070348374",
+   "group": "fr"
+  },
+  {
+   "barcode": "3257981030138",
+   "lang": "fr",
+   "product_name": "2 steaks hachés pur bœuf (15 % MG)",
+   "image_url": "https://images.openfoodfacts.org/images/products/325/798/103/0138/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/325/798/103/0138/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "Steaks hachés pur bœuf.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3257981030138",
+   "group": "fr"
+  },
+  {
+   "barcode": "0200489034705",
+   "lang": "fr",
+   "product_name": "Steak haché pur boeuf",
+   "image_url": "https://images.openfoodfacts.org/images/products/020/048/903/4705/ingredients_fr.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/020/048/903/4705/ingredients_fr.8.400.jpg",
+   "truth_ingredients_text": "race charolaise",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0200489034705",
+   "group": "fr"
+  },
+  {
+   "barcode": "3265980786604",
+   "lang": "fr",
+   "product_name": "Steaks Hachés Façon Bouchère",
+   "image_url": "https://images.openfoodfacts.org/images/products/326/598/078/6604/ingredients_fr.11.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/326/598/078/6604/ingredients_fr.11.400.jpg",
+   "truth_ingredients_text": "Viande bovine (100 %).",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/3265980786604",
+   "group": "fr"
+  },
+  {
+   "barcode": "9417915001243",
+   "lang": "fr",
+   "product_name": "Steaks Hachés Surgelés",
+   "image_url": "https://images.openfoodfacts.org/images/products/941/791/500/1243/ingredients_fr.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/941/791/500/1243/ingredients_fr.7.400.jpg",
+   "truth_ingredients_text": "100 % viande bovine.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/9417915001243",
+   "group": "fr"
+  },
+  {
+   "barcode": "0041369101205",
+   "lang": "en",
+   "product_name": "Wild Caught Shrimp",
+   "image_url": "https://images.openfoodfacts.org/images/products/004/136/910/1205/ingredients_en.10.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/004/136/910/1205/ingredients_en.10.400.jpg",
+   "truth_ingredients_text": "Shrimp, water, salt and citric acid.",
+   "truth_allergens_tags": [
+    "en:crustaceans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0041369101205",
+   "group": "en"
+  },
+  {
+   "barcode": "0078742297071",
+   "lang": "en",
+   "product_name": "Raw Whole Cashews",
+   "image_url": "https://images.openfoodfacts.org/images/products/007/874/229/7071/ingredients_en.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/007/874/229/7071/ingredients_en.13.400.jpg",
+   "truth_ingredients_text": "ORGANIC _CASHEWS_",
+   "truth_allergens_tags": [
+    "en:nuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0078742297071",
+   "group": "en"
+  },
+  {
+   "barcode": "50105090",
+   "lang": "en",
+   "product_name": "Trebor softmints softmints peppermint",
+   "image_url": "https://images.openfoodfacts.org/images/products/50105090/ingredients_en.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/50105090/ingredients_en.8.400.jpg",
+   "truth_ingredients_text": "Sugar, glucose syrup (contains SULPHITES), modified starch, natural mint flavouring, glazing agent (carnauba wax).",
+   "truth_allergens_tags": [
+    "en:sulphur-dioxide-and-sulphites"
+   ],
+   "page": "https://world.openfoodfacts.org/product/50105090",
+   "group": "en"
+  },
+  {
+   "barcode": "0041190466634",
+   "lang": "en",
+   "product_name": "Whole milk yogurt, vanilla",
+   "image_url": "https://images.openfoodfacts.org/images/products/004/119/046/6634/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/004/119/046/6634/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Cultured pasteurized organic whole milk, organic cane sugar, organic natural vanilla flavor, pectin, vitamin d3, active cultures.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0041190466634",
+   "group": "en"
+  },
+  {
+   "barcode": "0027000384718",
+   "lang": "en",
+   "product_name": "Hickory Cracked Pepper Barbeque Sauce",
+   "image_url": "https://images.openfoodfacts.org/images/products/002/700/038/4718/ingredients_en.4.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/002/700/038/4718/ingredients_en.4.400.jpg",
+   "truth_ingredients_text": "tomato puree (water, tomato paste), cane sugar, molasses, distilled vinegar, mustard (distilled vinegar, water, mustard seed, salt, turmeric, paprika, spice, garlic powder), less than 2% of: onion powder, garlic powder, salt, spice blend (chili pepper, spices, garlic powder, onion powder), natural hickory smoke flavor, cracked black pepper,",
+   "truth_allergens_tags": [
+    "en:mustard",
+    "en:Smoke flavor"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0027000384718",
+   "group": "en"
+  },
+  {
+   "barcode": "0692752103421",
+   "lang": "en",
+   "product_name": "Chia Seed",
+   "image_url": "https://images.openfoodfacts.org/images/products/069/275/210/3421/ingredients_en.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/069/275/210/3421/ingredients_en.13.400.jpg",
+   "truth_ingredients_text": "RAW ORGANIC CHIA SEED",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0692752103421",
+   "group": "en"
+  },
+  {
+   "barcode": "04448606",
+   "lang": "en",
+   "product_name": "Chocolate Grahams",
+   "image_url": "https://images.openfoodfacts.org/images/products/04448606/ingredients_en.11.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/04448606/ingredients_en.11.400.jpg",
+   "truth_ingredients_text": "unbleached enriched flour (wheat flour, niacin, reduced iron, thiamine mononitrate {vitamin b1}, riboflavin {vitamin b2}, folic acid), graham flour (whole grain wheat flour), sugar, canola oil, cocoa (processed with alkali), cocoa, honey, leavening (baking soda and/or calcium phosphate), chocolate, salt, soy lecithin, dextrose, artificial flavor,",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/04448606",
+   "group": "en"
+  },
+  {
+   "barcode": "0086631313290",
+   "lang": "en",
+   "product_name": "Ceasar Croutons",
+   "image_url": "https://images.openfoodfacts.org/images/products/008/663/131/3290/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/008/663/131/3290/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "ENRICHED FLOUR (WHEAT FLOUR. MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), CANOLA AND/OR SUNFLOWER OIL (WITH ROSEMARY EXTRACT AND ASCORBIC ACID TO PRESERVE FRESHNESS), SALT, SUGAR, 2% OR LESS OF YEAST MALTODEXTRIN, GARLIC POWDER, WHEY, PARMESAN CHEESE (PART-SKIM MILK, CHEESE CULTURES, SALT, ENZYMES, ONION POWDER, SPICES, DEHYDRATED PARSLEL TORULA YEAST, CULTURED WHEY, CITRIC ACID, NATURAL FLAVORS, CREAM, EXTRACTIVE OF ANNATTO COLOR TURMERIC (COLOR), ENZYMES, ASCORBIC ACID. CONTAINS",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0086631313290",
+   "group": "en"
+  },
+  {
+   "barcode": "0297274306956",
+   "lang": "en",
+   "product_name": "1,000 Day Gouda Cheese",
+   "image_url": "https://images.openfoodfacts.org/images/products/029/727/430/6956/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/029/727/430/6956/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Pasteurized Cow's Milk, Salt, Cheese Cultures, Animal Rennet, Annatto added for color.",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0297274306956",
+   "group": "en"
+  },
+  {
+   "barcode": "00311854",
+   "lang": "en",
+   "product_name": "New York Deli Style baked CHEESECAKE",
+   "image_url": "https://images.openfoodfacts.org/images/products/00311854/ingredients_en.6.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/00311854/ingredients_en.6.400.jpg",
+   "truth_ingredients_text": "Cheesecake : cream cheese (pasteurized cultured milk and cream, salt, xanthan, carob bean and/or guar gum), sugar, sour cream (cultured pasteurized milk and cream), whole eggs, enriched flour (wheat flour, niacin, iron, thiamine, riboflavin, folic acid), vanilla extract.\r\n\r\nCrust: graham meal (unbleached enriched wheat flour, whole wheat flour, graham flour, sugar, palm and kernel oil, molasses, honey, salt, sodium bicarbonate), butter, sugar, vanilla extract.",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/00311854",
+   "group": "en"
+  },
+  {
+   "barcode": "07289042",
+   "lang": "en",
+   "product_name": "Cerveza",
+   "image_url": "https://images.openfoodfacts.org/images/products/07289042/ingredients_en.19.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/07289042/ingredients_en.19.400.jpg",
+   "truth_ingredients_text": "water, malted barley, hop extract for best by date: see bottom of can 5% alc./vol. government warning: (1) accor generall, women should not drink alcc",
+   "truth_allergens_tags": [
+    "en:gluten"
+   ],
+   "page": "https://world.openfoodfacts.org/product/07289042",
+   "group": "en"
+  },
+  {
+   "barcode": "0071505019989",
+   "lang": "en",
+   "product_name": "Mild cheddar cheese",
+   "image_url": "https://images.openfoodfacts.org/images/products/007/150/501/9989/ingredients_en.14.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/007/150/501/9989/ingredients_en.14.400.jpg",
+   "truth_ingredients_text": "Pasturized Milk, Cheese Culture, Salt, Enzymes, Color Added,",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0071505019989",
+   "group": "en"
+  },
+  {
+   "barcode": "0054800030804",
+   "lang": "en",
+   "product_name": "Ready rice spanish style",
+   "image_url": "https://images.openfoodfacts.org/images/products/005/480/003/0804/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/005/480/003/0804/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "water, parboiled long grain rice, tomatoes, poblano peppers, less than 2% of: canola oilã¢â€â , tomato powder, salt, sugar, spices, yeast extract, garlic*, onion*, corn maltodextrin, natural flavors, corn dextrose, citric acid, paprika extract (color), gum arabic, coconut oil, chili pepper, enrichment (iron phosphate, niacinaimde, thiamine mononitrate, folic acid),",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0054800030804",
+   "group": "en"
+  },
+  {
+   "barcode": "04861751",
+   "lang": "en",
+   "product_name": "Mike and lke",
+   "image_url": "https://images.openfoodfacts.org/images/products/04861751/ingredients_en.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/04861751/ingredients_en.9.400.jpg",
+   "truth_ingredients_text": "SUGAR, CORN SYRUP, MODIFIED FOOD STARCH, CONTAINS LESS THAN 0.5% OF THE FOLLOWING: FUMARIC ACID, NATURAL AND ARTIFICIAL FLAVORS, SODIUM CITRATE, DEXTRIN, CITRIC ACID, MALIC ACID, CONFECTIONERS GLAZE, ARTIFICIAL COLOR, CARNAUBA WAX,MEDIUM CHAIN TRIGLYCERIDES, YELLOW #5 (TARTRAZINE), RED #40, BLUE #1, YELLOW #6. GLUTEN FREE 2017 JUST BORN, INC., BETHLEHEM, PA 1 8017 U.S.A. Printed using 100% certified renewable energy. Satisfaction Guarantee Quality candy is our family tradition. If you are not satisfied with the quality of this product, please save the unused portion and package. Contact us at 1-888-MIKEIKE M-F 9AM-5PM E.S.T. or www.mikeandike.com A great candy isn't made...I's JUSTBORN Per Seruing (16 pieces) ADDED SUGARS 10 SODIUM CALORIES SAT FAT 10 110",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/04861751",
+   "group": "en"
+  },
+  {
+   "barcode": "00509206",
+   "lang": "en",
+   "product_name": "Whole milk ricotta cheese",
+   "image_url": "https://images.openfoodfacts.org/images/products/00509206/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/00509206/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "Whey, Milk, Acetic Acid, Salt,",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/00509206",
+   "group": "en"
+  },
+  {
+   "barcode": "0075436100273",
+   "lang": "en",
+   "product_name": "Spaghetti rings in Tomato Sauce",
+   "image_url": "https://images.openfoodfacts.org/images/products/007/543/610/0273/ingredients_en.11.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/007/543/610/0273/ingredients_en.11.400.jpg",
+   "truth_ingredients_text": "Water, Tomato Puree (Water, Tomato Paste), Enriched Pasta (Durum Wheat, Semolina, Egg White, Niacin Reduced Iron, Thiamine Mononitrate (Vitamin B1), Riboflavin (Vitamin B2), Folic Acid), High Fructose Corn Syrup, Less than 2% of: Sea Salt, Cheese (Enzyme Modified Cheddar and Pasteurized process Cheddar (Pasturized Milk, Cultures, Salt, Enzymes) Water, Cream, Sodium Phosphate, Salt Milk Fat, Xanthan Gum, Apo-Carotenal (color) Bleached Wheat Flour, Modified Corn Startch, Salt, Tricalcium Phosphate, Flavoring, Onion Powde, Citric Acid, Soybean Ooil",
+   "truth_allergens_tags": [
+    "en:eggs",
+    "en:gluten",
+    "en:milk",
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0075436100273",
+   "group": "en"
+  },
+  {
+   "barcode": "0078355580010",
+   "lang": "en",
+   "product_name": "Plain non fat yogurt",
+   "image_url": "https://images.openfoodfacts.org/images/products/007/835/558/0010/ingredients_en.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/007/835/558/0010/ingredients_en.7.400.jpg",
+   "truth_ingredients_text": "CULTURED PASTEURIZED NO GRADE A NONFAT MILK, PECTIN. container CONTAINS: MILK cup (170g)",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/0078355580010",
+   "group": "en"
+  },
+  {
+   "barcode": "0890985000474",
+   "lang": "en",
+   "product_name": "Distilled white vinegar",
+   "image_url": "https://images.openfoodfacts.org/images/products/089/098/500/0474/ingredients_en.23.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/089/098/500/0474/ingredients_en.23.400.jpg",
+   "truth_ingredients_text": "WHITE DISTILLED VINEGAR, DILUTED WITH WATER TO 5% ACIDITY",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/0890985000474",
+   "group": "en"
+  },
+  {
+   "barcode": "8437001218578",
+   "lang": "es",
+   "product_name": "Arroz con leche",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/700/121/8578/ingredients_es.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/700/121/8578/ingredients_es.9.400.jpg",
+   "truth_ingredients_text": "_Leche_ pasteurizada 82%, arroz 9%, azúcar, canela, corteza de limón",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8437001218578",
+   "group": "es"
+  },
+  {
+   "barcode": "8410111009823",
+   "lang": "es",
+   "product_name": "Sardinas al grill en aceite de oliva",
+   "image_url": "https://images.openfoodfacts.org/images/products/841/011/100/9823/ingredients_es.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/841/011/100/9823/ingredients_es.13.400.jpg",
+   "truth_ingredients_text": "Sardinas, aceite de oliva y sal.",
+   "truth_allergens_tags": [
+    "en:fish"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8410111009823",
+   "group": "es"
+  },
+  {
+   "barcode": "8437008383002",
+   "lang": "es",
+   "product_name": "Queso Crema Original",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/700/838/3002/ingredients_es.16.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/700/838/3002/ingredients_es.16.400.jpg",
+   "truth_ingredients_text": "Mazada (_leche_), _leche_ de vaca, nata (_leche_), lactosa (_leche_), sal, estabilizante (carragenanos), conservador (ácido sórbico) y fermentos lácticos (_leche_).",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8437008383002",
+   "group": "es"
+  },
+  {
+   "barcode": "8429583011067",
+   "lang": "es",
+   "product_name": "Atún en aceite de oliva",
+   "image_url": "https://images.openfoodfacts.org/images/products/842/958/301/1067/ingredients_es.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/842/958/301/1067/ingredients_es.9.400.jpg",
+   "truth_ingredients_text": "Atún (Katsuwonus pelamis), aceite de oliva, sal.",
+   "truth_allergens_tags": [
+    "en:fish"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8429583011067",
+   "group": "es"
+  },
+  {
+   "barcode": "8410416012146",
+   "lang": "es",
+   "product_name": "Crema ecologica de calabacin",
+   "image_url": "https://images.openfoodfacts.org/images/products/841/041/601/2146/ingredients_es.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/841/041/601/2146/ingredients_es.8.400.jpg",
+   "truth_ingredients_text": "Calabacín* (45%), agua, patata* (6%), cebolla* (4%), aceite de oliva virgen extra* (3%), almidón de maíz* y sal. * Procedente de agricultura ecológica.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8410416012146",
+   "group": "es"
+  },
+  {
+   "barcode": "2350153002122",
+   "lang": "es",
+   "product_name": "Queso de cabra madurado",
+   "image_url": "https://images.openfoodfacts.org/images/products/235/015/300/2122/ingredients_es.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/235/015/300/2122/ingredients_es.8.400.jpg",
+   "truth_ingredients_text": "Leche pasteurizada de cabra, sal, cuajo, fermentos lácticos",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/2350153002122",
+   "group": "es"
+  },
+  {
+   "barcode": "8430803043119",
+   "lang": "es",
+   "product_name": "Chocolate negro 72%",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/080/304/3119/ingredients_es.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/080/304/3119/ingredients_es.7.400.jpg",
+   "truth_ingredients_text": "Pasta de cacao, azúcar, manteca de cacao, cacao desgrasado en polvo, emulgente (lecitina de _soja_) y aroma. Cacao: 72% mínimo.",
+   "truth_allergens_tags": [
+    "en:soybeans"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8430803043119",
+   "group": "es"
+  },
+  {
+   "barcode": "8480017735867",
+   "lang": "es",
+   "product_name": "Arroz integral",
+   "image_url": "https://images.openfoodfacts.org/images/products/848/001/773/5867/ingredients_es.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/848/001/773/5867/ingredients_es.8.400.jpg",
+   "truth_ingredients_text": "100% arroz integral.",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8480017735867",
+   "group": "es"
+  },
+  {
+   "barcode": "8480010170306",
+   "lang": "es",
+   "product_name": "Hula chocs arroz de trigo y avena con chocolate",
+   "image_url": "https://images.openfoodfacts.org/images/products/848/001/017/0306/ingredients_es.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/848/001/017/0306/ingredients_es.8.400.jpg",
+   "truth_ingredients_text": "Cereales (harina de _trigo_ integral 62%, harina de _avena_ integral 12%), azúcar, chocolate en polvo 14% (azúcar, cacao), jarabe de glucosa de trigo, vitaminas: vitamina C, niacina (B3), ácido pantoténico (B5), riboflavina (B2), tiamina (B1), vitamina B6, ácido fólico (B9), vitamina B12, sal, aromas y hierro.",
+   "truth_allergens_tags": [
+    "en:gluten",
+    "es:Avena",
+    "es:avena"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8480010170306",
+   "group": "es"
+  },
+  {
+   "barcode": "8480000166074",
+   "lang": "es",
+   "product_name": "Rovellones en conserva",
+   "image_url": "https://images.openfoodfacts.org/images/products/848/000/016/6074/ingredients_es.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/848/000/016/6074/ingredients_es.7.400.jpg",
+   "truth_ingredients_text": "Rovellones (Lactarius deliciosus), agua, sal y antioxidante: ácido cítrico (E-330).",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8480000166074",
+   "group": "es"
+  },
+  {
+   "barcode": "8480000123688",
+   "lang": "es",
+   "product_name": "Chocolate negro relleno sabor menta",
+   "image_url": "https://images.openfoodfacts.org/images/products/848/000/012/3688/ingredients_es.16.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/848/000/012/3688/ingredients_es.16.400.jpg",
+   "truth_ingredients_text": "Azúcar, pasta de cacao, jarabe de glucosa-fructosa, agua, manteca de cacao, aceite vegetal de coco, glicerina, emulgentes (lecitina de girasol, E-476, E-472c), estabilizante (E-440), aromas (menta natural, vainillina), correctores de acidez (E-330, E-327), conservador (E-202), colorante (E-171)",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8480000123688",
+   "group": "es"
+  },
+  {
+   "barcode": "8437001415960",
+   "lang": "es",
+   "product_name": "Tableta de chocolate negro con almendras 58% cacao - DESCATALOGADO",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/700/141/5960/ingredients_es.5.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/700/141/5960/ingredients_es.5.400.jpg",
+   "truth_ingredients_text": "Pasta de cacao, azúcar de caña integral, _almendras_ (12%) y manteca de cacao.",
+   "truth_allergens_tags": [
+    "en:nuts"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8437001415960",
+   "group": "es"
+  },
+  {
+   "barcode": "8436006835230",
+   "lang": "es",
+   "product_name": "Chocolate negro ecológico 76 % Brasil",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/600/683/5230/ingredients_es.8.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/600/683/5230/ingredients_es.8.400.jpg",
+   "truth_ingredients_text": "Cacao, azúcar, manteca de cacao, vainilla",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8436006835230",
+   "group": "es"
+  },
+  {
+   "barcode": "8432089115108",
+   "lang": "es",
+   "product_name": "Hummus con zanahoria y cilantro",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/208/911/5108/ingredients_es.9.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/208/911/5108/ingredients_es.9.400.jpg",
+   "truth_ingredients_text": "Garbanzos (47%), aceite de girasol, zanahoria (20%), tahina (pasta de _sésamo_), agua, zumo de limón, cilantro (1,1%), aceite de oliva, ajo, sal, acidulantes (E330 - E270) y conservante (E202).",
+   "truth_allergens_tags": [
+    "en:sesame-seeds"
+   ],
+   "page": "https://world.openfoodfacts.org/product/8432089115108",
+   "group": "es"
+  },
+  {
+   "barcode": "8430807002297",
+   "lang": "es",
+   "product_name": "Tomate triturado extra",
+   "image_url": "https://images.openfoodfacts.org/images/products/843/080/700/2297/ingredients_es.7.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/843/080/700/2297/ingredients_es.7.400.jpg",
+   "truth_ingredients_text": "tomate triturado, sal y acidulante (ácido citrico).",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/8430807002297",
+   "group": "es"
+  },
+  {
+   "barcode": "4017194045102",
+   "lang": "de",
+   "product_name": "Sauerrahm",
+   "image_url": "https://images.openfoodfacts.org/images/products/401/719/404/5102/ingredients_de.10.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/401/719/404/5102/ingredients_de.10.400.jpg",
+   "truth_ingredients_text": "Demeter-Sauerrahm mit 10% Fett. Nicht homogenisiert. Hergestellt unter Mitwirkung von lebenden Kulturen (L. acidophilus und B. bifidum).",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/4017194045102",
+   "group": "de"
+  },
+  {
+   "barcode": "4260108380046",
+   "lang": "de",
+   "product_name": "Speisekartoffeln vorwiegend festkochend",
+   "image_url": "https://images.openfoodfacts.org/images/products/426/010/838/0046/ingredients_de.4.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/426/010/838/0046/ingredients_de.4.400.jpg",
+   "truth_ingredients_text": "Speisekartoffeln",
+   "truth_allergens_tags": [],
+   "page": "https://world.openfoodfacts.org/product/4260108380046",
+   "group": "de"
+  },
+  {
+   "barcode": "4000381130231",
+   "lang": "de",
+   "product_name": "Huober Brezel Kinder Mit Dinkel",
+   "image_url": "https://images.openfoodfacts.org/images/products/400/038/113/0231/ingredients_de.13.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/400/038/113/0231/ingredients_de.13.400.jpg",
+   "truth_ingredients_text": "_Dinkelmehl_ (89%), Palmfett**, Salz (2%), _Gerstenmalzextrakt&quot;_, Hefe“, Brezellauge (Natriumhydroxid).",
+   "truth_allergens_tags": [
+    "en:gluten"
+   ],
+   "page": "https://world.openfoodfacts.org/product/4000381130231",
+   "group": "de"
+  },
+  {
+   "barcode": "4017194469830",
+   "lang": "de",
+   "product_name": "Schrozberger Milchbauern demeter Mango Joghurt mild 4017194469830  JOGHURT mild mit Mangozubereitung",
+   "image_url": "https://images.openfoodfacts.org/images/products/401/719/446/9830/ingredients_de.12.full.jpg",
+   "image_url_400": "https://images.openfoodfacts.org/images/products/401/719/446/9830/ingredients_de.12.400.jpg",
+   "truth_ingredients_text": "Joghurt mild, 8% Mangopüree, Rübenzucker, Tapiokastärke, Zitronensaftkonzentrat, Johannisbrotkernmehl",
+   "truth_allergens_tags": [
+    "en:milk"
+   ],
+   "page": "https://world.openfoodfacts.org/product/4017194469830",
+   "group": "de"
+  }
+ ]
+}
