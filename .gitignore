@@ -1,0 +1,5 @@
+.venv/
+.build/
+data/images/
+__pycache__/
+.pytest_cache/
