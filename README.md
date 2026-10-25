@@ -1,20 +1,49 @@
 # opencv-label-guard
 
-**라이브 데모(비로그인, 사진 1장 올리면 판정): https://hqadhnbyzbv5dyok3zdnnfpcae0tcozx.lambda-url.ap-northeast-2.on.aws/**
+Live demo (no login, upload one photo): https://hqadhnbyzbv5dyok3zdnnfpcae0tcozx.lambda-url.ap-northeast-2.on.aws/ · Demo video v2 (unlisted, 136 s, English captions): https://youtu.be/gn5Gw9fM5Zg
 
-폰으로 찍은 식품 성분표 사진을 OpenCV 5가 읽을 수 있는 상태인지 판정(원근 보정·반사·흐림·글자 영역)하고, 결과에 따라 알레르기 경고 / 재촬영 요청 / 사람 확인으로 행동을 가르는 루프. 의료 판단은 하지 않으며 최종 확인은 항상 사람이 라벨 원문으로 한다. 설계는 [SPEC.md](SPEC.md).
+Label Guard judges whether a phone photo of a food ingredient label is good enough to read (perspective rectification, blur, glare, text regions with OpenCV 5), and that judgement decides the next action: ask for a retake, read it with an OpenCV 5 DNN text reader and warn about allergens, hand it to a person when the read is uncertain, or say "no warning". It is not medical advice: a person always makes the final check against the printed label. Design and acceptance criteria: [SPEC.md](SPEC.md). Korean README: [docs/README.ko.md](docs/README.ko.md).
 
-## 실행 (3줄)
+## Install
+
+Python 3.12. Pinned versions are in `requirements-lambda.txt` (`opencv-python-headless==5.0.0.93`, `numpy==2.5.4`).
+
 ```
-python3.12 -m venv .venv && .venv/bin/pip install opencv-python-headless==5.0.0.93 pytest && .venv/bin/python scripts/download_models.py
-.venv/bin/python -m pytest -q          # 단위 시험 59개 (가중치 없으면 판독기 시험 2개는 건너뜀)
-.venv/bin/python scripts/download_images.py && .venv/bin/python -m label_guard.adapters.evaluate linux   # 리눅스 판독기로 104건 평가
+python3.12 -m venv .venv
+.venv/bin/pip install opencv-python-headless==5.0.0.93 pytest
+.venv/bin/python scripts/download_models.py
 ```
-macOS 판독기(Vision)로 돌리려면 `swiftc -O label_guard/adapters/ocr_vision.swift -o .build/ocr_vision` 후 `-m label_guard.adapters.evaluate`.
 
-## 구조
-`domain/`(OpenCV·I/O 0) <- `application/`(포트·판정 오케스트레이션) <- `adapters/`(opencv5_quality, vision_reader[macOS], dnn_reader[리눅스·OpenCV DNN], evaluate) <- `infrastructure/`(lambda_handler).
-판독 포트 `TextReader` 구현 2개: macOS Vision(온디바이스), OpenCV 5 DNN(DB 검출 + PP-OCRv3 인식, 학습 0). 배포는 [docs/deploy.md](docs/deploy.md).
+## Reproduce
 
-## 평가 (실측, 104건)
-[docs/eval/eval.md](docs/eval/eval.md) · [docs/eval/failures.md](docs/eval/failures.md) · 판독기 비교 [docs/eval/reader-compare.md](docs/eval/reader-compare.md) · 재촬영 [docs/eval/retake.md](docs/eval/retake.md) · 엔드포인트 지연 [docs/eval/endpoint-latency.md](docs/eval/endpoint-latency.md). 이미지 출처 [data/ATTRIBUTION.md](data/ATTRIBUTION.md).
+```
+.venv/bin/python -m pytest -q        # 72 unit tests (2 reader tests are skipped when the model weights are missing)
+.venv/bin/python scripts/download_images.py
+.venv/bin/python -m label_guard.adapters.evaluate linux     # 104-photo evaluation with the deployed reader
+.venv/bin/python scripts/measure_endpoint.py <live URL above> 10   # latency of the public endpoint
+```
+
+Layout: `domain/` (no OpenCV, no I/O) <- `application/` (ports, orchestration) <- `adapters/` (OpenCV 5 quality, OpenCV DNN reader, macOS Vision reader, evaluation) <- `infrastructure/` (AWS Lambda handler). Deployment: [docs/deploy.md](docs/deploy.md).
+
+## Evaluation (measured; same values as the technical report)
+
+| What | Result | Source |
+|---|---|---|
+| 104 public Open Food Facts photos, deployed reader (OpenCV 5 DNN), 55 positive photos | warning recall 0.87, precision 0.80, safe recall 0.91, 5 silent misses | [docs/eval/eval.md](docs/eval/eval.md) |
+| Held-out check: thresholds picked on 52 photos, scored on the other 52 (28 positive; deployed values) | recall 0.86 (24/28), 2 silent photos; per group x photo recall 0.75 (30/40), 8 silent misses | [docs/eval/holdout.md](docs/eval/holdout.md) |
+| Per ingredient group x photo (90 positives) | recall 0.74; fish 0.33, egg 0.56 | [docs/eval/retake-linux.md](docs/eval/retake-linux.md) |
+| 1,248 synthetic retake pairs (blur, glare, tilt, low resolution x 3 strengths) | verdict change 0.38; abstention 0.38 -> 0.10 after retake; useful abstention 0.26 | [docs/eval/retake-linux.md](docs/eval/retake-linux.md) |
+| 42 real pairs (two different Open Food Facts uploads of one label; not one person retaking) | verdict agreement 0.76 (32/42, 95% CI 0.61-0.87); one side abstains 0.14 (6/42); accuracy when answering 0.78 (59/76); 3 of 56 positive photos silently missed | [docs/eval/real-pairs.md](docs/eval/real-pairs.md) |
+| Live endpoint, 30 requests (3 photos x 10) | 30/30 HTTP 200; round trip p50 3.36 s, p95 3.75 s; server p50 3.20 s; blurred photo returns a retake request in 0.2-0.4 s | [docs/eval/endpoint-latency.md](docs/eval/endpoint-latency.md) |
+| Reader time per photo, M-series laptop (not Lambda) | OpenCV 5 DNN 0.40 s, macOS Vision 0.59 s | [docs/eval/reader-compare.md](docs/eval/reader-compare.md) |
+
+## Limitations
+
+- All 1,248 retake pairs are synthetic degradations; the only real photos are the 42 pairs above (mostly French labels, no Korean pairs). No same-person phone retakes were measured.
+- Thresholds (blur 15, glare 0.4, confidence 0.6) were lowered after seeing the 104 photos; the 52/52 split check is small (28 held-out positives), so results may be optimistic.
+- Useful abstention is only 0.26 and glare detection is weak; 83 silent misses remain among degraded synthetic photos (60 after retake). Allergen tags from Open Food Facts are crowd-sourced. No user study.
+- Details: [docs/limits-and-responsible.md](docs/limits-and-responsible.md), [docs/eval/failures.md](docs/eval/failures.md).
+
+## License
+
+Code: MIT ([LICENSE](LICENSE)). Photos and data come from Open Food Facts (photos CC BY-SA, data ODbL + DbCL); no images are stored in this repository, only product-page links ([data/ATTRIBUTION.md](data/ATTRIBUTION.md)).
