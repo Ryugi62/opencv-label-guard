@@ -11,7 +11,7 @@
 | OpenCV 5 단계(원근·흐림·반사·글자 영역·기울기) | 0.019 s | 0.052 s |
 | 판독기(Vision) | 0.518 s | 1.146 s |
 | 합계 | 0.545 s | 1.192 s |
-AWS Lambda 지연은 아직 측정하지 않았다(계획) — 위 값을 AWS 지연으로 쓰지 않는다.
+위 표는 노트북(macOS Vision 판독기) 값이다. 배포본(Lambda, OpenCV 5 DNN 판독기) 지연은 별도로 실측했다: 왕복 p50 3.3s · p95 3.7s, 콜드 5.8s([deploy.md](deploy.md), [endpoint-latency.md](eval/endpoint-latency.md)). 두 값을 섞어 쓰지 않는다.
 
 ## 한계 (정직 표기)
 1. 104건은 OFF 사용자가 올린 **성분 부분 사진**이라 폰 촬영 열화가 거의 없다. 폰 실촬영 쌍은 0건(계획). 재촬영 효과는 **합성 열화** 1,248쌍으로만 측정했다.
@@ -25,5 +25,5 @@ AWS Lambda 지연은 아직 측정하지 않았다(계획) — 위 값을 AWS �
 |---|---|
 | 데이터 권리 표 | 이미지 = Open Food Facts 기여자 사진 CC BY-SA, 데이터 = ODbL+DbCL, 포장 디자인 저작권 = 각 제조사. 레포에 이미지 미포함, 상품 페이지 링크만. 104건 전체 목록 = data/ATTRIBUTION.md |
 | 개인정보 | 평가 이미지 104건에 OpenCV 5 DNN 얼굴 검출(YuNet, 신뢰도 0.8)을 돌려 얼굴이 검출된 이미지 **0건** (scripts/face_check.py, 2026-10-26 실행). 검출기 한계상 손·옆모습·작은 얼굴은 놓칠 수 있다 |
-| 업로드 이미지 | 판정 후 즉시 폐기(저장 안 함, 판독기 임시 파일 삭제 코드 = vision_reader.py), 로그에 이미지 본문 없음 |
-| AI 사용 공개 | 이 작품의 코드는 AI 코딩 보조(Claude)와 함께 작성했다. 판정 경로는 OpenCV 5 고전 비전 + 온디바이스 글자 판독이며 생성형 모델을 호출하지 않는다. 모델 직접 학습 0. AI 코딩 보조 사용만으로 Agentic Vision을 자처하지 않는다 |
+| 업로드 이미지 | 판정 후 즉시 폐기(저장 안 함, Lambda 판독기는 이미지를 메모리에서만 다루고 디스크에 쓰지 않음 = lambda_handler.py·dnn_reader.py; 로컬 macOS 판독기만 임시 파일을 만들고 vision_reader.py가 지움), 로그에 이미지 본문 없음 |
+| AI 사용 공개 | 이 작품의 코드는 AI 코딩 보조(Claude)와 함께 작성했다. 판정 경로는 OpenCV 5 고전 비전 + OpenCV 5 DNN 글자 판독(배포본; 로컬 비교용으로만 macOS Vision)이며 생성형 모델을 호출하지 않는다. 모델 직접 학습 0. AI 코딩 보조 사용만으로 Agentic Vision을 자처하지 않는다 |

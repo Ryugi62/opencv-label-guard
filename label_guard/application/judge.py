@@ -8,15 +8,17 @@ def judge_photo(image: Any, profile: AllergyProfile, analyzer, reader, t: Thresh
     """UC-1: 품질 먼저 -> 미달이면 판독 없이 재촬영 요청."""
     quality, rectified, info = analyzer.analyze(image)
     rect = Step("rectify", True,
-                f"원근 보정 글자 영역 보정 전 {info.get('regions_before', 0)} -> 보정 후 {info.get('regions_after', 0)}")
+                f"원근 보정 글자 영역 보정 전 {info.get('regions_before', 0)} -> 보정 후 {info.get('regions_after', 0)}",
+                f"perspective correction: text regions {info.get('regions_before', 0)} before -> {info.get('regions_after', 0)} after")
+    ro = bool(getattr(reader, "runs_on_opencv", False))
     if assess_quality(quality, t):
         return decide(quality, None, profile, t, [rect])
     try:
         lines = reader.read(rectified)
     except Exception as e:  # fail-safe: 모르면 없음이라 하지 않는다
         v = decide(quality, [], profile, t, [rect])
-        return replace(v, steps=v.steps + (Step("read", False, f"판독기 오류 {type(e).__name__}"),))
-    return decide(quality, lines, profile, t, [rect])
+        return replace(v, steps=v.steps + (Step("read", False, f"판독기 오류 {type(e).__name__}", f"reader error {type(e).__name__}"),))
+    return decide(quality, lines, profile, t, [rect], read_opencv=ro)
 
 
 def opencv_only_ratio(verdicts: Sequence[Verdict]) -> float:

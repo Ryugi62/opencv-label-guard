@@ -55,6 +55,16 @@ class Step:
     stage: str
     opencv: bool   # 이 단계가 OpenCV 5 연산인가(AC-11)
     detail: str
+    detail_en: str = ""
+
+
+def _tag(s, lang):
+    """트레이스 태그: OpenCV 5 연산 / OpenCV 5 DNN 판독 / 규칙(낱말 대조·결정)."""
+    if s.opencv:
+        return "OpenCV5-DNN" if s.stage == "read" else "OpenCV5"
+    if s.stage == "read":
+        return "non-OpenCV" if lang == "en" else "비OpenCV"
+    return "rules" if lang == "en" else "규칙"
 
 
 @dataclass(frozen=True)
@@ -64,10 +74,15 @@ class Verdict:
     reasons: Tuple[str, ...] = ()
     evidence: Tuple[Evidence, ...] = ()
     steps: Tuple[Step, ...] = ()
+    message_en: str = ""
+
+    @property
+    def trace_en(self) -> Tuple[str, ...]:
+        return tuple(f"[{_tag(s, 'en')}] {s.stage}: {s.detail_en or s.detail}" for s in self.steps)
 
     @property
     def trace(self) -> Tuple[str, ...]:
-        return tuple(f"[{'OpenCV5' if s.opencv else '비OpenCV'}] {s.stage}: {s.detail}" for s in self.steps)
+        return tuple(f"[{_tag(s, 'ko')}] {s.stage}: {s.detail}" for s in self.steps)
 
     @property
     def decided_by_opencv(self) -> bool:

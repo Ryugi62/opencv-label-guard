@@ -78,3 +78,7 @@ manifest 100건 이미지를 URL로 받아(제작 레인에서) 실제 판정 �
 
 ## 10. 변경 이력
 - v0.1 2026-10-22 최초(1단계: SPEC + 데이터 실측).
+
+## 추가 (10/26) 화면 언어
+- AC-12 화면·응답 메시지·트레이스는 기본 영어(`?lang=ko`로 한국어 토글). 심사 대상이 영어권이므로. 시험: tests/test_english_ui.py.
+- AC-13 트레이스의 판독 단계 태그는 실제 판독기를 따른다 — OpenCV 5 DNN 판독기(`runs_on_opencv`)면 `[OpenCV5] read`, macOS Vision이면 `[비OpenCV]`.

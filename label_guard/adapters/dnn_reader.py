@@ -54,6 +54,7 @@ def load_dict(path: str) -> List[str]:
 
 
 class DnnTextReader:
+    runs_on_opencv = True   # cv2.dnn(DB 검출 + CRNN 인식)만 쓴다 — 트레이스에서 OpenCV 5 단계로 표시
     def __init__(self, det_path: str, rec_path: str, dict_path: str, det_size: int = 960,
                  max_lines: int = 200, binary_thr: float = 0.3, unclip: float = 1.6,
                  alt_rec_path: Optional[str] = None, alt_dict_path: Optional[str] = None, alt_h: int = 32, gap_ratio: float = 0.25):

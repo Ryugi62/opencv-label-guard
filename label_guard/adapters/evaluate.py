@@ -120,7 +120,7 @@ def write_report(items, res, t: Thresholds, out_dir="docs/eval"):
     L = ["# 평가 결과 — 공개 라벨 사진 104건 (실측)", "",
          f"- 입력: Open Food Facts 성분 사진 {n}건(`data/manifest.json`, CC BY-SA, 출처 `data/ATTRIBUTION.md`). 이미지는 레포에 없음.",
          f"- 실행: 이미지 열기·OpenCV·판독 오류로 못 돈 건 = **{len(e['not_run'])}건**" + (" (" + "; ".join(f"{b}: {r}" for b, r in e['not_run']) + ")" if e['not_run'] else ""),
-         f"- 임계값(사전 고정 후 보정표로 확인): 흐림 < {t.min_blur:g}, 반사 > {t.max_glare:g}, 판독 신뢰도 < {t.min_confidence:g}, 글자영역 최소 {t.min_regions}",
+         f"- 임계값(처음 고정값 흐림 60·반사 0.12는 이 104건을 본 뒤 흐림 15·반사 0.4로 낮췄다 — 같은 표본에서 고른 값이라 낙관 편향 가능): 흐림 < {t.min_blur:g}, 반사 > {t.max_glare:g}, 판독 신뢰도 < {t.min_confidence:g}, 글자영역 최소 {t.min_regions}",
          "- 한계: 이 104건은 사용자가 OFF에 올린 **성분 부분 사진**이라 폰 촬영 열화(기울기·반사)가 거의 없다. 재촬영 루프 효과(S3)는 별도 합성 측정 대상이고 여기서는 주장하지 않는다.",
          "- 정답 한계: OFF 알레르기 태그는 사용자 입력이라 오류·'may contain' 포함 가능. 기타 그룹은 갑각류·아황산·겨자·참깨·젤라틴 묶음.", "",
          "## 1. 판정 3갈래 분포 (프로필 = 전체 그룹)", "", "| 판정 | 건수 |", "|---|---|"]
@@ -158,7 +158,7 @@ def write_report(items, res, t: Thresholds, out_dir="docs/eval"):
     reg_lo = [x for x in rows if x[2] <= 1]
     L += ["", f"- 반사 비율 > 0.05인 {len(glare_hi)}건의 판독 비율 중앙값 {np.median([x[3] for x in glare_hi]):.2f}.",
           f"- 고전 글자 영역 검출 수 <= 1인 {len(reg_lo)}건에서도 판독기는 정답 대비 비율 중앙값 {np.median([x[3] for x in reg_lo]):.2f}를 읽음 -> 고전 검출기는 판독기보다 적게 찾는다(글자영역 최소 0으로 끔).",
-          "- 사전 고정값 흐림 60·반사 0.12·글자영역 1로 처음 돌렸을 때 재촬영 24건, 이미지 단위 경고 재현율 0.78, 관문 끔 0.91. 흐림 점수는 이 데이터의 판독 성공을 예측하지 못해(위 표) 임계를 극단 꼬리로 내렸다. 폰 촬영 열화 사진에서의 재보정은 S3 측정으로 넘긴다.", "",
+          "- 처음 고정값(낮추기 전) 흐림 60·반사 0.12·글자영역 1로 처음 돌렸을 때 재촬영 24건, 이미지 단위 경고 재현율 0.78, 관문 끔 0.91. 흐림 점수는 이 데이터의 판독 성공을 예측하지 못해(위 표) 임계를 극단 꼬리로 내렸다. 폰 촬영 열화 사진에서의 재보정은 S3 측정으로 넘긴다.", "",
           "## 5. 단계별 시간·기여", ""]
     to = sum(r["t_opencv"] for r in res.values() if "t_opencv" in r); tr = sum(r["t_read"] for r in res.values() if "t_read" in r)
     L += [f"- OpenCV 5 단계(원근 보정 시도·흐림·반사·글자 영역·기울기) 합계 {to:.1f}s, 판독기(Vision) 합계 {tr:.1f}s -> 시간 비율 OpenCV {to/(to+tr)*100:.0f}% / 판독 {tr/(to+tr)*100:.0f}%.",

@@ -31,7 +31,7 @@ def test_get_returns_keyboard_usable_upload_page():
 
 def test_post_image_returns_warning_with_trace_and_latency():
     h = make_handler(FakeAnalyzer(), FakeReader([ReadLine("CONTAINS MILK", 0.9)]))
-    r = h(post(png_b64(), {"profile": "milk,soy"}), None)
+    r = h(post(png_b64(), {"profile": "milk,soy", "lang": "ko"}), None)   # 기본은 영어(test_english_ui), 한국어는 토글
     d = json.loads(r["body"])
     assert r["statusCode"] == 200 and d["kind"] == "allergy_warning"
     assert d["evidence"][0]["group"] == "milk" and d["trace"] and d["latency_ms"] >= 0

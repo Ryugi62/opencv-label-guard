@@ -31,7 +31,7 @@ L = ["# 공개 엔드포인트 지연 실측", "", f"- URL: {sys.argv[1]} (비�
      f"- 클라이언트 왕복(업로드 포함) p50 {q(tot,50):.2f}s · p95 {q(tot,95):.2f}s (SPEC S4: p95 <= 60s, 서버 p50 <= 10s)",
      f"- 서버 처리 p50 {q(srv,50):.2f}s · p95 {q(srv,95):.2f}s", "",
      "| 언어 | 바코드(OFF) | 업로드 크기 | 판정 | 왕복 p50 | 왕복 최대 |", "|---|---|---|---|---|---|", *rows, "",
-     f"- 흐린 사진(가우시안 12) -> 판정 {d['kind']} 사유 {d['reasons']} · 왕복 {t:.2f}s (판독 건너뜀: 품질 관문이 OpenCV 단독으로 결정)",
+     f"- 흐린 사진(가우시안 12) -> 판정 {d['kind']} 사유 {d['reasons']} · 안내 {[g['tip'] for g in d.get('guidance', [])]} · 왕복 {t:.2f}s (판독 건너뜀: 품질 관문이 OpenCV 단독으로 결정)",
      "- 콜드 스타트(새 실행 환경) 1건: 왕복 5.77s, 서버 처리 3.6s, 초기화 0.75s (CloudWatch REPORT)."]
 open("docs/eval/endpoint-latency.md", "w").write("\n".join(L) + "\n")
 print("\n".join(L))
