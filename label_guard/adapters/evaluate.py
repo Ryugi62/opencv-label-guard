@@ -41,13 +41,15 @@ def classify_failure(group, truth_pos, kind, reasons, truth_text_hit, ocr_chars,
     return "-"
 
 
-def run(manifest_path="data/manifest.json", image_dir="data/images", out_dir="docs/eval", cache="docs/eval/run-cache.json"):
+def run(manifest_path="data/manifest.json", image_dir="data/images", out_dir="docs/eval", cache="docs/eval/run-cache.json", reader=None):
     import cv2
     from .opencv5_quality import OpenCV5QualityAnalyzer, load_image
-    from .vision_reader import VisionReader
     items = json.load(open(manifest_path))["items"]
     cached = json.load(open(cache)) if os.path.exists(cache) else {}
-    an, rd, res = OpenCV5QualityAnalyzer(), VisionReader(), {}
+    if reader is None:
+        from .vision_reader import VisionReader
+        reader = VisionReader()
+    an, rd, res = OpenCV5QualityAnalyzer(), reader, {}
     for it in items:
         b = it["barcode"]
         if b in cached:
@@ -185,6 +187,19 @@ def write_report(items, res, t: Thresholds, out_dir="docs/eval"):
     return summary
 
 
+def linux_reader():
+    from .dnn_reader import DnnTextReader
+    m = os.path.join(os.path.dirname(__file__), "..", "..", "models")
+    return DnnTextReader(os.path.join(m, "text_detection_en_ppocrv3_2023may.onnx"),
+                         os.path.join(m, "en_PP-OCRv3_rec_infer.onnx"), os.path.join(m, "en_ppocrv3_dict.txt"),
+                         alt_rec_path=os.path.join(m, "korean_mobile_v2.0_rec_infer.onnx"), alt_dict_path=os.path.join(m, "ko_v2_dict.txt"))
+
+
 if __name__ == "__main__":
-    items, res = run()
-    print(json.dumps(write_report(items, res, Thresholds()), ensure_ascii=False, default=str)[:1500])
+    if len(sys.argv) > 1 and sys.argv[1] == "linux":   # 리눅스 판독기(OpenCV DNN) — 결과는 docs/eval/linux/
+        os.makedirs("docs/eval/linux", exist_ok=True)
+        items, res = run(out_dir="docs/eval/linux", cache="docs/eval/linux/run-cache.json", reader=linux_reader())
+        print(json.dumps(write_report(items, res, Thresholds(), out_dir="docs/eval/linux"), ensure_ascii=False, default=str)[:1500])
+    else:
+        items, res = run()
+        print(json.dumps(write_report(items, res, Thresholds()), ensure_ascii=False, default=str)[:1500])

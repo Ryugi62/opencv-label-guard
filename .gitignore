@@ -3,3 +3,7 @@
 data/images/
 __pycache__/
 .pytest_cache/
+models/*.onnx
+.build/
+dist/
+build_lambda/

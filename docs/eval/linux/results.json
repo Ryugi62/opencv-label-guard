@@ -1,0 +1,52 @@
+{
+ "n": 104,
+ "kinds": {
+  "allergy_warning": 60,
+  "retake_request": 7,
+  "no_warning": 34,
+  "human_check": 3
+ },
+ "not_run": [],
+ "any": {
+  "tp": 48,
+  "fp": 12,
+  "fn": 7,
+  "tn": 37,
+  "silent_miss": 5,
+  "escalated": 2,
+  "precision": 0.8,
+  "recall": 0.8727272727272727,
+  "safe_recall": 0.9090909090909091
+ },
+ "any_no_gate": {
+  "tp": 49,
+  "fp": 12,
+  "fn": 6,
+  "tn": 37,
+  "silent_miss": 5,
+  "escalated": 1,
+  "precision": 0.8032786885245902,
+  "recall": 0.8909090909090909,
+  "safe_recall": 0.9090909090909091
+ },
+ "micro": {
+  "precision": 0.5877192982456141,
+  "recall": 0.7444444444444445,
+  "safe_recall": 0.7777777777777778,
+  "tp": 67,
+  "fp": 47,
+  "fn": 23,
+  "tn": 591,
+  "silent_miss": 20,
+  "escalated": 3
+ },
+ "cause": {
+  "성분 낱말 매칭": 26,
+  "판독 오류": 41,
+  "판독": 2,
+  "반사": 1
+ },
+ "t_opencv": 2.523244291951414,
+ "t_read": 42.02673224406317,
+ "fail_rows": 35
+}
