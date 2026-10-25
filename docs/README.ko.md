@@ -9,8 +9,8 @@
 
 ## 실행 (3줄)
 ```
-python3.12 -m venv .venv && .venv/bin/pip install opencv-python-headless==5.0.0.93 pytest && .venv/bin/python scripts/download_models.py
-.venv/bin/python -m pytest -q          # 단위 시험 72개 (가중치 없으면 판독기 시험 2개는 건너뜀)
+python3.12 -m venv .venv && .venv/bin/pip install opencv-python-headless==5.0.0.93 pytest pyyaml && .venv/bin/python scripts/download_models.py
+.venv/bin/python -m pytest -q          # 단위 시험 79개(SAM 템플릿 시험 7개 포함) (가중치 없으면 판독기 시험 2개는 건너뜀)
 .venv/bin/python scripts/download_images.py && .venv/bin/python -m label_guard.adapters.evaluate linux   # 리눅스 판독기로 104건 평가
 ```
 macOS 판독기(Vision)로 돌리려면 `swiftc -O label_guard/adapters/ocr_vision.swift -o .build/ocr_vision` 후 `-m label_guard.adapters.evaluate`.

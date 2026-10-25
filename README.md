@@ -10,14 +10,14 @@ Python 3.12. Pinned versions are in `requirements-lambda.txt` (`opencv-python-he
 
 ```
 python3.12 -m venv .venv
-.venv/bin/pip install opencv-python-headless==5.0.0.93 pytest
+.venv/bin/pip install opencv-python-headless==5.0.0.93 pytest pyyaml
 .venv/bin/python scripts/download_models.py
 ```
 
 ## Reproduce
 
 ```
-.venv/bin/python -m pytest -q        # 72 unit tests (2 reader tests are skipped when the model weights are missing)
+.venv/bin/python -m pytest -q        # 79 unit tests (incl. 7 SAM-template checks) (2 reader tests are skipped when the model weights are missing)
 .venv/bin/python scripts/download_images.py
 .venv/bin/python -m label_guard.adapters.evaluate linux     # 104-photo evaluation with the deployed reader
 .venv/bin/python scripts/measure_endpoint.py <live URL above> 10   # latency of the public endpoint
