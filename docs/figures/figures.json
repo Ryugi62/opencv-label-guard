@@ -1,0 +1,92 @@
+{
+  "source": "0014100098423.jpg",
+  "opencv": "5.0.0",
+  "ops": {
+    "op1_rectify": {
+      "rectified": true,
+      "regions_before": 0,
+      "regions_after": 58,
+      "ops": [
+        "cv2.Canny",
+        "cv2.findContours",
+        "cv2.approxPolyDP",
+        "cv2.getPerspectiveTransform",
+        "cv2.warpPerspective"
+      ],
+      "input": "synthetic tilt (degrade.py tilt 3)"
+    },
+    "op2_blur": {
+      "blur_score_original": 274.5,
+      "blur_score_blurred": 11.5,
+      "threshold": 15,
+      "ops": [
+        "cv2.cvtColor",
+        "cv2.Laplacian"
+      ],
+      "input": "synthetic blur (degrade.py blur 2)",
+      "output": "|Laplacian| of original (top) and blurred input (bottom)"
+    },
+    "op3_glare": {
+      "glare_ratio_original": 0.006,
+      "glare_ratio_input": 0.309,
+      "threshold": 0.4,
+      "ops": [
+        "cv2.morphologyEx(MORPH_OPEN)",
+        "cv2.getStructuringElement"
+      ],
+      "input": "synthetic glare (degrade.py glare 3)",
+      "output": "saturated blobs that survive a 15px opening (red)"
+    },
+    "op4_text_regions": {
+      "text_regions": 64,
+      "ops": [
+        "cv2.morphologyEx(MORPH_GRADIENT)",
+        "cv2.threshold(OTSU)",
+        "cv2.morphologyEx(MORPH_CLOSE)",
+        "cv2.findContours",
+        "cv2.boundingRect"
+      ],
+      "input": "original public label photo"
+    },
+    "op5_skew": {
+      "skew_deg": -85.5,
+      "skew_deg_original": 89.0,
+      "ops": [
+        "cv2.minAreaRect",
+        "cv2.boxPoints"
+      ],
+      "input": "synthetic tilt (degrade.py tilt 2)",
+      "output": "text-line centres (orange) and their min-area rectangle (magenta)"
+    },
+    "op6_dnn_text": {
+      "dnn_boxes": 20,
+      "read_lines": 20,
+      "sample_lines": [
+        {
+          "text": "MADE FROM: UNBLEACHED ENRICHED",
+          "confidence": 0.95
+        },
+        {
+          "text": "WHEAT FLOUR (FLOUR, NIACIN, REDUCED",
+          "confidence": 0.96
+        },
+        {
+          "text": "RON THIAMINE MONONITRATE IVITAMIN",
+          "confidence": 0.96
+        },
+        {
+          "text": "311 RIBOFLAVIN IVTAMIN B21. FOLIC AC(D",
+          "confidence": 0.9
+        }
+      ],
+      "ops": [
+        "cv2.dnn_TextDetectionModel_DB",
+        "cv2.dnn.readNet",
+        "cv2.dnn.blobFromImage",
+        "cv2.warpPerspective"
+      ],
+      "input": "original public label photo",
+      "output": "DB text polygons; PP-OCRv3 recognition per word"
+    }
+  }
+}
