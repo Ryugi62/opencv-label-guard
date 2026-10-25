@@ -23,6 +23,10 @@ python3.12 -m venv .venv
 .venv/bin/python scripts/measure_endpoint.py <live URL above> 10   # latency of the public endpoint
 ```
 
+`template.yaml` is the same definition as the live deployment (function, layers, function URL, reserved concurrency 5, logs-only role); `tests/test_sam_template.py` checks it against a read-only snapshot of the deployed configuration (`tests/fixtures/deployed-config.json`, needs PyYAML) and `sam validate --lint` passes. Nothing is deployed from it here.
+The CloudWatch alarms (Errors, Throttles) are defined only, with no notification target, and are created when the template is deployed (the live function was made by `scripts/deploy_lambda.py`, so a stack deploy needs a fresh function name or a resource import).
+Run `./scripts/build_lambda.sh` before `sam validate` so `dist/*.zip` exist.
+
 Layout: `domain/` (no OpenCV, no I/O) <- `application/` (ports, orchestration) <- `adapters/` (OpenCV 5 quality, OpenCV DNN reader, macOS Vision reader, evaluation) <- `infrastructure/` (AWS Lambda handler). Deployment: [docs/deploy.md](docs/deploy.md).
 
 ## Evaluation (measured; same values as the technical report)

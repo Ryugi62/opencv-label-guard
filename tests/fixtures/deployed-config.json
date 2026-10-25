@@ -1,0 +1,7 @@
+{"_source": "aws lambda get-function-configuration / get-function-concurrency / get-function-url-config + iam list-attached-role-policies, read-only, 2026-10-26 (ap-northeast-2, profile dayafter)",
+ "function": {"Runtime": "python3.12", "Handler": "label_guard.infrastructure.lambda_handler.lambda_handler", "MemorySize": 2048, "Timeout": 60,
+   "Architectures": ["x86_64"], "EphemeralStorage": 512, "Tracing": "PassThrough", "ReservedConcurrentExecutions": 5,
+   "Environment": {"PYTHONPATH": "/var/task:/opt/python"}, "Layers": ["label-guard-cv2", "label-guard-libs-numpy"]},
+ "url": {"AuthType": "NONE", "InvokeMode": "BUFFERED"},
+ "role": {"AttachedPolicies": ["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"], "InlinePolicies": 0, "TrustedService": "lambda.amazonaws.com"},
+ "log_retention_days": 7}
