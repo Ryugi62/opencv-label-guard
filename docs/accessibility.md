@@ -1,5 +1,5 @@
 # 접근성 점검 목록 (데모 화면, 키보드·대체 텍스트)
-2026-10-26 실화면(공개 URL)에서 확인. 캡처: `demo-upload-warning.png`(경고)·`demo-upload-retake-white.png`(재촬영) — Jarvis 볼트 handoff/drop/opencv-ai-comp/.
+2026-10-26 실화면(공개 URL)에서 확인. 캡처: `demo-upload-warning.png`(경고)·`demo-upload-retake-white.png`(재촬영). 캡처 파일은 제출 묶음에 포함.
 | # | 점검 | 결과 |
 |---|---|---|
 | 1 | 마우스 없이 업로드·판정·결과 확인: Tab으로 체크박스 -> 파일 선택 -> 「판정하기」, Enter로 제출 | 통과(판정하기 버튼에 포커스 후 Enter로 제출 -> 결과 표시) |

@@ -4,24 +4,17 @@ Live demo (no login, upload one photo): https://hqadhnbyzbv5dyok3zdnnfpcae0tcozx
 
 Label Guard judges whether a phone photo of a food ingredient label is good enough to read (perspective rectification, blur, glare, text regions with OpenCV 5), and that judgement decides the next action: ask for a retake, read it with an OpenCV 5 DNN text reader and warn about allergens, hand it to a person when the read is uncertain, or say "no warning". It is not medical advice: a person always makes the final check against the printed label. Design and acceptance criteria: [SPEC.md](SPEC.md). Korean README: [docs/README.ko.md](docs/README.ko.md).
 
-## Install
-
-Python 3.12. Pinned versions are in `requirements-lambda.txt` (`opencv-python-headless==5.0.0.93`, `numpy==2.5.4`).
-
-```
-python3.12 -m venv .venv
-.venv/bin/pip install opencv-python-headless==5.0.0.93 pytest pyyaml
-.venv/bin/python scripts/download_models.py
-```
-
 ## Reproduce
 
+Python 3.12, pinned versions in `requirements-lambda.txt` (`opencv-python-headless==5.0.0.93`, `numpy==2.5.4`). Build, test and check in three lines:
+
 ```
-.venv/bin/python -m pytest -q        # 79 unit tests (incl. 7 SAM-template checks) (2 reader tests are skipped when the model weights are missing)
-.venv/bin/python scripts/download_images.py
-.venv/bin/python -m label_guard.adapters.evaluate linux     # 104-photo evaluation with the deployed reader
-.venv/bin/python scripts/measure_endpoint.py <live URL above> 10   # latency of the public endpoint
+python3.12 -m venv .venv && .venv/bin/pip install opencv-python-headless==5.0.0.93 pytest pyyaml
+.venv/bin/python scripts/download_models.py
+.venv/bin/python -m pytest -q        # 81 unit tests (incl. 7 SAM-template checks and the README-number consistency check; 2 reader tests are skipped when the model weights are missing)
 ```
+
+Optional, to regenerate the evaluation: `scripts/download_images.py`, `python -m label_guard.adapters.evaluate linux` (104-photo evaluation with the deployed reader), `scripts/measure_endpoint.py <live URL above> 10` (latency of the public endpoint), `scripts/check_submission.py` (README numbers vs evaluation files).
 
 `template.yaml` is the same definition as the live deployment (function, layers, function URL, reserved concurrency 5, logs-only role); `tests/test_sam_template.py` checks it against a read-only snapshot of the deployed configuration (`tests/fixtures/deployed-config.json`, needs PyYAML) and `sam validate --lint` passes. Nothing is deployed from it here.
 The CloudWatch alarms (Errors, Throttles) are defined only, with no notification target, and are created when the template is deployed (the live function was made by `scripts/deploy_lambda.py`, so a stack deploy needs a fresh function name or a resource import).
@@ -30,6 +23,8 @@ Run `./scripts/build_lambda.sh` before `sam validate` so `dist/*.zip` exist.
 Layout: `domain/` (no OpenCV, no I/O) <- `application/` (ports, orchestration) <- `adapters/` (OpenCV 5 quality, OpenCV DNN reader, macOS Vision reader, evaluation) <- `infrastructure/` (AWS Lambda handler). Deployment: [docs/deploy.md](docs/deploy.md).
 
 ## Evaluation (measured; same values as the technical report)
+
+Silent miss = positive photo answered “no warning” (the most serious error). Recall = warned positives / positives; safe recall = (warned + retake or human check) / positives.
 
 | What | Result | Source |
 |---|---|---|

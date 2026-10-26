@@ -1,0 +1,36 @@
+{
+ "0888989930170_human_check": {
+  "kind": "human_check",
+  "message": "I could not read the text reliably enough. I cannot say the allergen is absent, so please check the original label yourself.",
+  "reasons": [
+   "판독불확실"
+  ],
+  "guidance": [],
+  "evidence": [],
+  "trace": [
+   "[OpenCV5] rectify: perspective correction: text regions 36 before -> 36 after",
+   "[OpenCV5] quality: blur 80.7 (min 15) · glare 0.0% (max 40%) · text regions 36",
+   "[OpenCV5-DNN] read: 4 lines read · mean confidence 0.13 (OpenCV 5 DNN: DB detector + CRNN recognizer)",
+   "[rules] match: profile ['egg', 'fish', 'gluten', 'milk', 'nut', 'other', 'soy'] -> 0 pieces of evidence",
+   "[rules] decision: reading uncertain -> human check (never claims 'none')"
+  ],
+  "latency_ms": 1029
+ },
+ "0078742297071_human_check": {
+  "kind": "human_check",
+  "message": "I could not read the text reliably enough. I cannot say the allergen is absent, so please check the original label yourself.",
+  "reasons": [
+   "판독불확실"
+  ],
+  "guidance": [],
+  "evidence": [],
+  "trace": [
+   "[OpenCV5] rectify: perspective correction: text regions 11 before -> 11 after",
+   "[OpenCV5] quality: blur 52.7 (min 15) · glare 0.0% (max 40%) · text regions 11",
+   "[OpenCV5-DNN] read: 1 lines read · mean confidence 0.38 (OpenCV 5 DNN: DB detector + CRNN recognizer)",
+   "[rules] match: profile ['egg', 'fish', 'gluten', 'milk', 'nut', 'other', 'soy'] -> 0 pieces of evidence",
+   "[rules] decision: reading uncertain -> human check (never claims 'none')"
+  ],
+  "latency_ms": 623
+ }
+}
